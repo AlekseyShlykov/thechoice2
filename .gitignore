@@ -1,0 +1,8 @@
+# Keep only React app tracked in git.
+# Twine/original-version source files remain local-only.
+
+/index.html
+/assets/
+/passages_full.txt
+/english-passages.md
+/docs/russian-passages-extracted.txt

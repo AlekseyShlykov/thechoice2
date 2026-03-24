@@ -1,0 +1,121 @@
+.game-scene {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+
+.scene-content {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  max-width: 680px;
+  margin: 0 auto;
+  width: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.start-header {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.start-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.start-subtitle {
+  font-size: 1rem;
+  color: #aaa;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.start-choose {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.scene-image {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.scene-text {
+  color: #e8e8e8;
+  font-size: 1rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.scene-text br {
+  display: block;
+  content: '';
+  margin-top: 0.2em;
+}
+
+.result-description {
+  margin-top: 1.5rem;
+}
+
+.choices-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: rgba(34, 34, 34, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  max-height: min(45vh, 360px);
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.choice-button {
+  width: 100%;
+  max-width: 600px;
+  padding: 0.85rem 1.2rem;
+  background: rgba(50, 50, 50, 0.9);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  text-align: center;
+  line-height: 1.4;
+  touch-action: manipulation;
+}
+
+.choice-button:hover {
+  background: rgba(80, 80, 80, 0.9);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 8px rgba(150, 150, 150, 0.2);
+}
+
+.choice-button:active {
+  transform: scale(0.97);
+}
+
+@media (min-width: 768px) {
+  .scene-content {
+    padding: 2rem 2rem;
+  }
+
+  .start-title {
+    font-size: 2.5rem;
+  }
+}
