@@ -2000,7 +2000,7 @@ export const passages: Record<string, Passage> = {
     isHtml: true,
     choices: [
       { textKey: 'results.playAgain', action: (s) => s.resetGame() },
-      { textKey: 'results.feedback', action: () => window.open('https://forms.gle/WxqUsMEBUeN4Y7gw5', '_blank') },
+      { textKey: 'results.tryOtherGames', action: () => window.open('https://buildtounderstand.dev/', '_blank') },
       { textKey: 'results.credits', action: (s) => goto(s, 'credits') },
     ],
   },
@@ -2011,7 +2011,7 @@ export const passages: Record<string, Passage> = {
     isHtml: true,
     choices: [
       { textKey: 'results.playAgain', action: (s) => s.resetGame() },
-      { textKey: 'results.feedback', action: () => window.open('https://forms.gle/WxqUsMEBUeN4Y7gw5', '_blank') },
+      { textKey: 'results.tryOtherGames', action: () => window.open('https://buildtounderstand.dev/', '_blank') },
       { textKey: 'results.credits', action: (s) => goto(s, 'credits') },
     ],
   },
@@ -2022,7 +2022,7 @@ export const passages: Record<string, Passage> = {
     isHtml: true,
     choices: [
       { textKey: 'results.playAgain', action: (s) => s.resetGame() },
-      { textKey: 'results.feedback', action: () => window.open('https://forms.gle/WxqUsMEBUeN4Y7gw5', '_blank') },
+      { textKey: 'results.tryOtherGames', action: () => window.open('https://buildtounderstand.dev/', '_blank') },
       { textKey: 'results.credits', action: (s) => goto(s, 'credits') },
     ],
   },
@@ -2033,7 +2033,7 @@ export const passages: Record<string, Passage> = {
     isHtml: true,
     choices: [
       { textKey: 'results.playAgain', action: (s) => s.resetGame() },
-      { textKey: 'results.feedback', action: () => window.open('https://forms.gle/WxqUsMEBUeN4Y7gw5', '_blank') },
+      { textKey: 'results.tryOtherGames', action: () => window.open('https://buildtounderstand.dev/', '_blank') },
       { textKey: 'results.credits', action: (s) => goto(s, 'credits') },
     ],
   },
@@ -2043,11 +2043,12 @@ export const passages: Record<string, Passage> = {
     id: 'credits',
     textKey: 'credits.author',
     choices: [
-      { textKey: 'credits.followX', action: () => window.open('https://x.com/buildtoundrstnd', '_blank') },
+      { textKey: 'credits.subscribeUpdates', action: () => window.open('https://buildtounderstand.substack.com/?subscribe=true', '_blank') },
       { textKey: 'credits.otherGames', action: () => window.open('https://buildtounderstand.dev', '_blank') },
       { textKey: 'credits.feedback', action: () => window.open('https://forms.gle/WxqUsMEBUeN4Y7gw5', '_blank') },
       { textKey: 'credits.harvardCourse', action: () => window.open('https://sandel.scholars.harvard.edu/justice', '_blank') },
       { textKey: 'credits.playAgain', action: (s) => s.resetGame() },
+      { textKey: 'credits.supportMe', action: () => window.open('https://patreon.com/buildtounderstand', '_blank') },
     ],
   },
 };

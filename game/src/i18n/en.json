@@ -1,8 +1,9 @@
 {
   "start": {
-    "title": "The Choice: Moral Dilemma Game",
-    "subtitle": "Playing time: 17 min • created by Alex Shlykov",
-    "chooseLanguage": "Choose language:",
+    "titleLine1": "The Choice:",
+    "titleLine2": "Moral Dilemma Game",
+    "subtitlePart1": "Playing time: 17 min",
+    "subtitlePart2": "created by Alex Shlykov",
     "english": "English",
     "russian": "Русский",
     "text": ""
@@ -608,8 +609,23 @@
       "title": "Deontology and Social Contract",
       "description": "The morality of each individual is the morality of the entire society. Kant's categorical imperative. Society is above all and helps each of its members, as long as they follow its norms. The community is built on rules and their enforcement.\n\nThis approach has its advantages — predictability and confidence in the other members. But it also has downsides — bright individualities may be oppressed if they go against the morality of the majority, or simply have their own opinion.\n\nA world built on rules, where the good of the whole world is more important than that of any single individual."
     },
+    "shareResult": "Share result",
+    "sharePreparing": "Preparing…",
+    "shareModalTitle": "Share your result",
+    "shareBody": "I'm closest to {{title}}.\n\nThe Choice: Moral Dilemma Game — {{url}}",
+    "shareNative": "Share (image + text)",
+    "shareNativeTextOnly": "Share text",
+    "shareDownloadImage": "Save image",
+    "shareOnX": "Post on X",
+    "shareOnLinkedIn": "Share on LinkedIn",
+    "shareOnFacebook": "Share on Facebook",
+    "shareHint": "On X you can attach the saved image after opening the composer. For LinkedIn and Facebook we copy the text and open the share window — add the image from “Save image” if you like.",
+    "shareClose": "Close",
+    "shareCopied": "Text copied to clipboard",
+    "shareCopyFailed": "Could not copy — select and copy the text above",
+    "shareCaptureFailed": "Could not create image — try again",
     "playAgain": "Play one more time!",
-    "feedback": "Send me a feedback.",
+    "tryOtherGames": "Try other games",
     "credits": "Credits"
   },
   "graph": {
@@ -621,10 +637,11 @@
   "credits": {
     "author": "Created by Alex Shlykov",
     "links": "Links:",
-    "followX": "Follow my X (Twitter).",
+    "subscribeUpdates": "Subscribe to my updates",
     "otherGames": "Try my other games.",
     "feedback": "Send me a feedback.",
     "harvardCourse": "Look Harvard's Course: Justice with Michael J. Sandel.",
-    "playAgain": "Play one more time!"
+    "playAgain": "Play one more time!",
+    "supportMe": "Support me"
   }
 }

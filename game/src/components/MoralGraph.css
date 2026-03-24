@@ -1,9 +1,18 @@
+.moral-graph-wrap {
+  width: 100%;
+  max-width: min(100%, 480px);
+  margin: 1.5rem auto;
+  padding: 2.25rem 2.25rem 2.75rem;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
 .moral-graph {
   position: relative;
   width: 100%;
   max-width: 400px;
   aspect-ratio: 1;
-  margin: 1.5rem auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -24,25 +33,32 @@
 .xlabel,
 .ylabel {
   position: absolute;
+  font-family: 'PT Sans Caption', 'PT Sans', -apple-system, sans-serif;
   font-size: 0.7rem;
+  line-height: 1.2;
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   white-space: nowrap;
 }
 
+/*
+ * 0.6em ≈ half the line-height box at line-height 1.2, compensating for the
+ * rotated element's visual offset so the gap matches the 4px of .ylabel.
+ * translateX(±50%) re-centres the long text around the pivot after rotation.
+ */
 .xlabel.left {
-  left: -4px;
+  right: calc(100% + 4px + 0.6em);
   top: 50%;
-  transform: translateX(-100%) translateY(-50%);
-  padding-right: 6px;
+  transform: translateY(-50%) rotate(-90deg) translateX(50%);
+  transform-origin: right center;
 }
 
 .xlabel.right {
-  right: -4px;
+  left: calc(100% + 4px + 0.6em);
   top: 50%;
-  transform: translateX(100%) translateY(-50%);
-  padding-left: 6px;
+  transform: translateY(-50%) rotate(90deg) translateX(-50%);
+  transform-origin: left center;
 }
 
 .ylabel.top {

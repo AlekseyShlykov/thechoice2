@@ -8,21 +8,23 @@ export default function MoralGraph() {
   const yPerc = useGameStore((s) => s.yPerc);
 
   return (
-    <div className="moral-graph" id="grid">
-      <div className="quad q1" />
-      <div className="quad q2" />
-      <div className="quad q3" />
-      <div className="quad q4" />
+    <div className="moral-graph-wrap" id="result-graph-capture">
+      <div className="moral-graph" id="grid">
+        <div className="quad q1" />
+        <div className="quad q2" />
+        <div className="quad q3" />
+        <div className="quad q4" />
 
-      <div className="xlabel left">{t('graph.deontology')}</div>
-      <div className="xlabel right">{t('graph.consequentialism')}</div>
-      <div className="ylabel top">{t('graph.socialContract')}</div>
-      <div className="ylabel bottom">{t('graph.libertarianism')}</div>
+        <div className="xlabel left">{t('graph.deontology')}</div>
+        <div className="xlabel right">{t('graph.consequentialism')}</div>
+        <div className="ylabel top">{t('graph.socialContract')}</div>
+        <div className="ylabel bottom">{t('graph.libertarianism')}</div>
 
-      <div
-        className="graph-point"
-        style={{ left: `${xPerc}%`, top: `${yPerc}%` }}
-      />
+        <div
+          className="graph-point"
+          style={{ left: `${xPerc}%`, top: `${yPerc}%` }}
+        />
+      </div>
     </div>
   );
 }

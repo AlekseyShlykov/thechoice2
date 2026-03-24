@@ -1,17 +1,21 @@
 .game-scene {
+  --story-text-size: 1rem;
   display: flex;
   flex-direction: column;
   height: calc(100vh - 60px);
+  height: calc(100dvh - 60px);
   margin-bottom: 60px;
   overflow: hidden;
 }
 
 .scene-content {
   flex: 1;
+  min-width: 0;
   padding: 1rem 1.5rem;
   max-width: 680px;
   margin: 0 auto;
   width: 100%;
+  overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
 }
@@ -22,11 +26,16 @@
 }
 
 .start-title {
-  font-size: 2rem;
+  font-family: 'Commissioner', 'PT Sans', -apple-system, system-ui, sans-serif;
+  font-size: clamp(22px, 5.5vw + 0.45rem, 46px);
   font-weight: 700;
   color: #fff;
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
+  margin-bottom: 1rem;
+  line-height: 1.12;
+}
+
+.start-title-line {
+  display: inline-block;
 }
 
 .start-subtitle {
@@ -34,12 +43,20 @@
   color: #aaa;
   font-weight: 400;
   margin-bottom: 2rem;
+  line-height: 1.45;
 }
 
-.start-choose {
-  color: #ccc;
-  font-size: 1rem;
-  margin-bottom: 1rem;
+@media (max-width: 767px) {
+  .start-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .start-subtitle-sep {
+    display: none;
+  }
 }
 
 .scene-image {
@@ -53,12 +70,27 @@
 
 .scene-text {
   color: #e8e8e8;
-  font-size: 1rem;
+  font-size: var(--story-text-size);
   line-height: 1.6;
   white-space: pre-wrap;
 }
 
 .scene-text br {
+  display: block;
+  content: '';
+  margin-top: 0.2em;
+}
+
+.result-heading {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+
+.result-heading br {
   display: block;
   content: '';
   margin-top: 0.2em;
@@ -70,6 +102,7 @@
 
 .choices-container {
   position: relative;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,6 +113,7 @@
   -webkit-backdrop-filter: blur(8px);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   max-height: min(45vh, 360px);
+  max-height: min(45dvh, 360px);
   overflow-y: auto;
   z-index: 10;
 }
@@ -92,7 +126,9 @@
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 10px;
-  font-size: 0.95rem;
+  font-family: inherit;
+  font-size: var(--story-text-size);
+  font-weight: 400;
   cursor: pointer;
   transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.15s;
   text-align: center;
@@ -110,12 +146,28 @@
   transform: scale(0.97);
 }
 
+@media (max-width: 480px) {
+  .start-header {
+    padding-top: min(14vh, 5rem);
+  }
+}
+
+@media (max-height: 700px) {
+  .start-header {
+    padding-top: 12vh;
+  }
+}
+
 @media (min-width: 768px) {
   .scene-content {
     padding: 2rem 2rem;
   }
 
   .start-title {
-    font-size: 2.5rem;
+    line-height: 1.15;
+  }
+
+  .result-heading {
+    font-size: 1.4rem;
   }
 }

@@ -4,6 +4,7 @@ import { useGameStore } from '../store/gameStore';
 import { passages } from '../passages/registry';
 import { useTypewriter } from '../hooks/useTypewriter';
 import MoralGraph from './MoralGraph';
+import ShareResultButton from './ShareResultButton';
 import './GameScene.css';
 
 const RESULT_PASSAGES = ['resultUL', 'resultUS', 'resultDL', 'resultDS'];
@@ -48,6 +49,8 @@ export default function GameScene() {
     ? passage.textKey.replace('.title', '.description')
     : null;
 
+  const resultTitlePlain = isResultPage ? t(passage.textKey, { defaultValue: '' }) : '';
+
   if (!passage) {
     return <div className="game-scene">Passage not found: {currentPassage}</div>;
   }
@@ -58,16 +61,26 @@ export default function GameScene() {
     <div
       className="game-scene"
       onClick={(e) => {
-        if ((e.target as HTMLElement).closest('.choice-button')) return;
+        if ((e.target as HTMLElement).closest('.choice-button, .share-result-overlay')) return;
         skipToEnd();
       }}
     >
       <div className="scene-content">
         {isStartPage && (
           <div className="start-header">
-            <h1 className="start-title">{t('start.title')}</h1>
-            <h2 className="start-subtitle">{t('start.subtitle')}</h2>
-            <p className="start-choose">{t('start.chooseLanguage')}</p>
+            <h1 className="start-title">
+              <span className="start-title-line">{t('start.titleLine1')}</span>
+              <br />
+              <span className="start-title-line">{t('start.titleLine2')}</span>
+            </h1>
+            <h2 className="start-subtitle">
+              <span className="start-subtitle-line">{t('start.subtitlePart1')}</span>
+              <span className="start-subtitle-sep" aria-hidden="true">
+                {' '}
+                •{' '}
+              </span>
+              <span className="start-subtitle-line">{t('start.subtitlePart2')}</span>
+            </h2>
           </div>
         )}
 
@@ -80,7 +93,13 @@ export default function GameScene() {
           />
         )}
 
-        {!isStartPage && (
+        {!isStartPage && isResultPage && (
+          <h2
+            className="result-heading"
+            dangerouslySetInnerHTML={{ __html: displayedText }}
+          />
+        )}
+        {!isStartPage && !isResultPage && (
           <div
             className="scene-text"
             dangerouslySetInnerHTML={{ __html: displayedText }}
@@ -100,6 +119,7 @@ export default function GameScene() {
       </div>
 
       <div className="choices-container">
+        {isResultPage && <ShareResultButton resultTitle={resultTitlePlain} />}
         {passage.choices.map((choice, idx) => (
           <button
             key={`${currentPassage}-${idx}`}
