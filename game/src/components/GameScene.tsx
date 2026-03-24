@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useGameStore } from '../store/gameStore';
 import { passages } from '../passages/registry';
@@ -16,6 +16,7 @@ export default function GameScene() {
   const store = useGameStore();
 
   const passage = passages[currentPassage];
+  const sceneContentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (lang && i18n.language !== lang) {
@@ -27,7 +28,7 @@ export default function GameScene() {
     if (passage?.onEnter) {
       passage.onEnter(store);
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    sceneContentRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPassage]);
 
@@ -65,7 +66,7 @@ export default function GameScene() {
         skipToEnd();
       }}
     >
-      <div className="scene-content">
+      <div className="scene-content" ref={sceneContentRef}>
         {isStartPage && (
           <div className="start-header">
             <h1 className="start-title">

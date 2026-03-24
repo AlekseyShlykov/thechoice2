@@ -134,7 +134,10 @@ export const useGameStore = create<GameState & GameActions>((set, get) => ({
     });
   },
 
-  resetGame: () => set(initialState),
+  resetGame: () => {
+    const { lang, soundOn } = get();
+    set({ ...initialState, lang, soundOn });
+  },
 
   getState: () => get(),
 }));
