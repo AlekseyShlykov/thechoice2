@@ -35,8 +35,11 @@ jobs:
       - name: Build app
         working-directory: game
         env:
-          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_BASE_PATH: /
         run: npm run build
+
+      - name: SPA fallback for GitHub Pages
+        run: cp game/dist/index.html game/dist/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
