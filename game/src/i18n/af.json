@@ -1,0 +1,656 @@
+{
+  "start": {
+    "titleLine1": "Die keuse:",
+    "titleLine2": "Morele dilemma spel",
+    "subtitlePart1": "Speeltyd: 17 min",
+    "subtitlePart2": "geskep deur Alex Shlykov",
+    "chooseLanguage": "Kies taal",
+    "playNow": "Speel nou!",
+    "english": "English",
+    "russian": "Русский",
+    "french": "Français",
+    "text": "",
+    "spanish": "Español",
+    "german": "Deutsch",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "chineseSimplified": "简体中文",
+    "afrikaans": "Afrikaans"
+  },
+  "intro": {
+    "text": "Hallo! Ek is 'n kunsmatige intelligensie wat daarvan droom om menslike moraliteit en etiek te verstaan ​​- en ek het jou hulp nodig.\n\nEk het al geleer om morele dilemmas te navigeer op grond van die inligting wat ek het, maar my kennis is nog redelik basies. Ek kan byvoorbeeld die klassieke 'trollieprobleem' hanteer, maar ek is nog lank nie al die nuanses onder die knie nie. Kan jy my help?",
+    "choice_whatIsMoralDilemma": "Wat is 'n morele dilemma?",
+    "choice_wantToStart": "Ek wil begin!"
+  },
+  "trolley": {
+    "intro": "Om te begin, laat ek kortliks verduidelik wat morele dilemmas is en hoekom dit belangrik is.\n\nWikipedia definieer 'n morele dilemma as:\n\"'n Situasie waarin iemand 'n etiese keuse tussen twee opsies moet maak, waar die keuse van een van die opsies behels die oortreding van sekere morele beginsels.\"\n\nIn eenvoudiger terme is dit 'n situasie met geen eties volmaakte oplossing nie - 'n keuse tussen twee moeilike, moreel kommerwekkende opsies.\n\nKom ons ondersoek 'n klassieke voorbeeld: die trollieprobleem.",
+    "whatIsIt": "Wat is dit?",
+    "iHeardAboutIt": "Ek het daarvan gehoor."
+  },
+  "trolley2": {
+    "text": "Stel jou voor jy ry 'n trollie wat teen 100 km/h teen die spore afstorm. Net voor is daar vyf werkers. Jy druk die remme — maar hulle werk nie.\n\nJy weet vir seker dat as niks verander nie, die trollie al vyf werkers sal doodmaak. Die stuur werk egter steeds, en daar is 'n syspoor met net een werker. Jy kan op die syspoor stuur en een lewe in plaas van vyf opoffer.\n\nWat sou jy in hierdie situasie doen?",
+    "choice_makeTurn": "Maak 'n draai.",
+    "choice_stayOnCourse": "Bly op koers."
+  },
+  "makeTurn": {
+    "text": "Jy het dalk logies tot die gevolgtrekking gekom dat vyf menselewens belangriker as een is – dit is die wiskundige benadering. Waarom vyf sterftes toelaat as jy dit tot net een kan beperk?\n\nMaar daar is 'n ander perspektief: in enige situasie kan die beginsel agter die neem van 'n besluit belangriker wees as die uitkoms self. As die offer van ander geregverdig is, kan dit uiteindelik lei tot regverdigende volksmoord of totalitarisme. Hoekom nie hele groepe uitskakel om een ​​spesifieke ras te red nie?\n\nDit is 'n klassieke voorbeeld van 'n morele dilemma.",
+    "butWhy": "Maar hoekom het ons hulle enigsins nodig?",
+    "whatOtherTypes": "Watter ander tipes is daar?"
+  },
+  "stayOnCourse": {
+    "text": "Jy het dalk logies tot die gevolgtrekking gekom dat die beginsel agter 'n besluit meer saak maak as die gevolge daarvan. Regverdigende opofferings kan immers uiteindelik lei tot regverdigende volksmoord of totalitarisme – hoekom nie hele groepe uitskakel om een ​​spesifieke ras te red nie?\n\nMaar daar is ook 'n ander benadering: vyf menselewens maak meer saak as een. Uit 'n suiwer wiskundige oogpunt is dit onaanvaarbaar om vyf sterftes toe te laat wanneer een voldoende sou wees.\n\nDit is 'n klassieke voorbeeld van 'n morele dilemma.",
+    "butWhy": "Maar hoekom het ons hulle enigsins nodig?",
+    "whatOtherTypes": "Watter ander tipes is daar?"
+  },
+  "butWhy": {
+    "text": "Hulle help ons om onsself en ons waardes beter te verstaan.\n\nIn hierdie speletjie sal ons presies dit ondersoek - hoe verskillende dilemmas kan lyk. Morele dilemmas handel gewoonlik oor moeilike konflikte, soos persoonlike teenoor sosiale belange of vryheid teenoor sekuriteit.\n\nMaar hulle is dikwels lastig. Om net een klein detail te verander, kan die hele dilemma verander, en dit kan my regtig verwar - as 'n KI.",
+    "tellMe": "Vertel my daarvan."
+  },
+  "whatOtherTypes": {
+    "text": "In hierdie speletjie sal ons verskillende tipes morele dilemmas ondersoek.\n\nHierdie dilemmas behels dikwels moeilike, onoplosbare konflikte: persoonlike teenoor kollektiewe belange, vryheid teenoor sekuriteit, en nog baie meer.\n\nHulle help ons om onsself en ons eie waardes beter te verstaan.\n\nMaar dilemmas kan nogal moeilik wees - as jy net een klein detail verander, skuif die hele scenario. En as 'n KI vind ek dit baie verwarrend.",
+    "tellMe": "Vertel my daarvan."
+  },
+  "tellMeAboutIt": {
+    "text": "So, weereens, 'n trollie jaag na vyf werkers toe - en die remme werk nie. Maar hierdie keer staan ​​jy op 'n brug en kyk bloot.\n\nSkielik merk jy iemand wat oor die reling leun. As jy hom 'n sagte druk gee, sal hy op die spore val, direk in die pad van die trollie - en jy weet vir seker dit sal dit stop.\n\nHy sal sterf, maar die vyf werkers sal oorleef. Een lewe in ruil vir vyf. Wat sou jy in hierdie situasie doen?",
+    "pushPerson": "Druk die persoon.",
+    "doNothing": "Doen niks, laat die werkers sterf."
+  },
+  "pushPerson": {
+    "text": "Ek sien - so vir jou het niks verander in hierdie scenario nie?\n\nInteressant genoeg maak baie mense wat hierdie weergawe van die dilemma in die gesig staar, 'n ander keuse.",
+    "whatDidTheySay": "En wat het hulle gesê?"
+  },
+  "doNothingTrolley": {
+    "text": "Het dit - baie mense maak daardie keuse. Maar waaroor ek eintlik nuuskierig is, is: hoekom het jy daardie pad gekies?\n\nAs 'n KI is dit vir my belangrik om jou redenasie te verstaan. Ek gebruik hierdie soort insette om my begrip van menslike moraliteit te leer en te verbeter.",
+    "imJustObserver": "Ek is net 'n waarnemer.",
+    "cantKillHuman": "Ek kan net nie 'n mens doodmaak nie."
+  },
+  "whatDidTheySay": {
+    "text": "Hulle argument lui soos volg: in hierdie weergawe van die dilemma is jy net ’n waarnemer – nie direk betrokke nie. Die regte besluit is dus nie 'een lewe teenoor vyf' nie, maar of jy enigsins bereid is om aktief in te gryp.",
+    "theyAreThemIAmMe": "Wel, hulle is hulle, en ek is ek."
+  },
+  "theyAreThemIAmMe": {
+    "text": "Ek sien. Dis presies hoekom ek moraliteit by jou wil leer—want jy is mens, 'n draer van menslike etiek en waardes. Jy kan die subtiele nuanses aanvoel wat ek as KI steeds sukkel om te begryp.\n\nGereed om te begin?",
+    "letsStart": "Kom ons begin!"
+  },
+  "imJustAnObserver": {
+    "text": "Ek verstaan ​​– baie mense wys dit uit. In hierdie scenario is jy net 'n waarnemer, nie 'n direkte deelnemer nie. Die regte keuse is dus nie 'een lewe teenoor vyf' nie, maar eerder 'om in te gryp of om daaruit te bly.'\n\nDaarom wil ek moraliteit by jou leer. Jy is 'n mens - 'n draer van menslike etiek en waardes. Jy kan daardie subtiele nuanses aanvoel wat ek, as 'n KI, steeds moeilik vind om ten volle te begryp.\n\nGereed om te begin?",
+    "letsStart": "Kom ons begin!"
+  },
+  "iCantKillAHuman": {
+    "text": "Ek verstaan. Vir baie is hierdie soort keuse eenvoudig onaanvaarbaar.\n\nDaarom wil ek moraliteit by jou leer. As mens dra jy die waardes en etiek wat ons spesie definieer. Jy kan die subtiele nuanses aanvoel – iets wat ek as KI steeds probeer begryp.\n\nGereed om te begin?",
+    "letsStart": "Kom ons begin!"
+  },
+  "rezeda": {
+    "intro": "Om menslike etiek beter te verstaan, sal ek jou in werklike – en soms ontstellende – scenario's plaas om te sien watter keuses jy maak, en nog belangriker, hoekom jy dit maak.\n\nHierdie situasies sal dikwels ekstreem wees. Hulle bied dalk geen duidelike oplossing nie of het nie genoeg inligting om 'n volledig ingeligte besluit te neem nie. Luister dus na jou ingewande—en kies wat net 'n bietjie minder verskriklik voel.\n\nKom ons begin.\n\n19de eeu. Atlantiese Oseaan.\n'n Seiljag het gesink nadat dit deur 'n massiewe golf getref is. Slegs vier oorlewendes bly op 'n reddingsboot oor: die kaptein, jy, 'n matroos en 'n kajuitseun.",
+    "nightmare": "Wat 'n nagmerrie!",
+    "atLeast": "Iemand is darem gered."
+  },
+  "rezeda2": {
+    "text": "Jy het amper geen kos nie—net twee blikkies ingemaakte raap. Na vier dae se lyding maak die groep een blikkie oop en eet dit.\n\nDie see strek eindeloos in elke rigting. Geen skepe in sig nie. Geen land op die horison nie.",
+    "keepWaiting": "Ek sal aanhou wag.",
+    "catchFish": "Ek sal probeer om vis te vang."
+  },
+  "keepWaiting": {
+    "text": "Die volgende dag glimlag geluk vir jou: die kaptein vang 'n skilpad. Gekombineer met die tweede blikkie raap, gee dit jou net genoeg kos om nog 'n paar dae te hou.\n\nMaar dan raak die geluk op.\nNog agt dae gaan verby—geen kos, geen water nie. Die son skroei, die see bied geen redding nie. Jy is swak, gedehidreer en desperaat.\n\nNou kom 'n verskriklike besluit:\nWat doen jy volgende?",
+    "searchFood": "Soek vir meer kos.",
+    "waitShip": "Wag vir 'n skip.",
+    "whatOptions": "Watter opsies het ons selfs?"
+  },
+  "catchFish": {
+    "text": "Die volgende dag is jy gelukkig: jy vang 'n skilpad. Saam met die tweede blikkie groente hou dit jou nog ’n paar dae aan die lewe. Maar steeds verskyn geen skip op die horison nie.\n\nDan keer die geluk sy rug.\nJy gaan agt dae sonder kos of water. Swakheid tree in. Die son slaan onder. Hoop vervaag.\n\nNou staan ​​jy voor 'n ondraaglike keuse. Wat gaan jy volgende doen?",
+    "searchFood": "Soek vir meer kos.",
+    "waitShip": "Wag vir 'n skip.",
+    "whatOptions": "Watter opsies het ons selfs?"
+  },
+  "nothing": {
+    "text": "Ten spyte van al jou pogings, is daar steeds geen teken van redding nie. Geen skepe nie. Geen reën nie. Geen hulp nie.",
+    "whatsNext": "Wat is volgende?"
+  },
+  "whatOptions": {
+    "text": "Jou situasie het kritiek geword. Die kajuitkind kon nie uithou nie en het seewater gedrink, wat hom ernstig siek gemaak het.\n\nOp die 19de dag het die kaptein voorgestel om lootjies te trek om te besluit wie van julle moet sterf vir die ander om te oorleef.",
+    "agree": "Goed, ek stem saam.",
+    "refuse": "Ek weier! Ons moet aanhou probeer!"
+  },
+  "refuse": {
+    "text": "Die kaptein probeer jou oorreed. Hy wil verstaan ​​watter opsie jy aanvaarbaar vind.\n\nMiskien, as die kajuitseun instem om homself vir die ander op te offer, kan so 'n uitkoms vir jou regverdig lyk, gegewe die kritieke situasie?",
+    "moreAcceptable": "Ja, dit lyk meer aanvaarbaar.",
+    "notAcceptable": "Nee, dit is nie aanvaarbaar nie!"
+  },
+  "agree": {
+    "text": "Maar die matroos weier.\n\nDie kaptein probeer jou oorreed en wil verstaan ​​watter opsie jy aanvaarbaar vind. Miskien, as die kajuit-seun instem om homself vir die ander op te offer, lyk so 'n uitkoms dalk vir jou reg, met inagneming van die kritieke situasie?",
+    "moreAcceptable": "Ja, dit lyk meer aanvaarbaar.",
+    "notAcceptable": "Nee, dit is nie aanvaarbaar nie!"
+  },
+  "moreAcceptable": {
+    "text": "Maar die matroos weier.\n\nDie kaptein gaan voort: 'Wat as dit die kajuitseun se eie idee was—om homself vir ons op te offer? Sal dit enigiets verander?'",
+    "murderIsMurder": "Natuurlik nie. Moord is steeds moord.",
+    "onlyAcceptable": "Dit lyk na die enigste aanvaarbare uitkoms."
+  },
+  "notAcceptable": {
+    "text": "Die kaptein gaan voort: 'En as die kajuitseun self aanbied om sy lewe vir ons op te offer - sou dit iets verander?'",
+    "onlyAcceptable": "Dit lyk na die enigste aanvaarbare uitkoms.",
+    "murderIsMurder": "Natuurlik nie. Moord is steeds moord."
+  },
+  "murderIsMurder": {
+    "text": "Jy het baie sterk morele beginsels! Maar dit was nie sy idee nie, en hy sou nooit tot so 'n uitkoms ingestem het nie.\n\nDie volgende dag was daar steeds geen skip nie, geen land op die horison nie.\nDie kaptein het sy besluit geneem: hy het 'n kort gebed gedoen en die kajuitseun se halsaar deurboor - sodat jy genoeg kos het om te oorleef.",
+    "horrible": "Dit was aaklig, maar nodig.",
+    "wouldntEat": "Ek sal hom nie eet nie!"
+  },
+  "onlyAcceptable": {
+    "text": "Maar dit was nie sy idee nie, en hy sou nie tot so 'n uitkoms ingestem het nie.\n\nDie volgende dag was daar steeds geen skip nie, geen land in sig nie. Die kaptein het 'n besluit geneem: hy het 'n kort gebed gedoen en die kajuitseun se halsaar deurboor, sodat jy genoeg kos het om te oorleef.",
+    "horrible": "Dit was aaklig, maar nodig.",
+    "wouldntEat": "Ek sal hom nie eet nie!"
+  },
+  "wouldntEat": {
+    "text": "Ongelukkig het jy weens uitputting jou bewussyn verloor en gesterf. Maar die ander het oorleef.\n\nVir vier dae het hulle aan die lewe gebly deur op die kajuitseun se vlees en bloed te eet. Toe het 'n verbygaande skip hulle gewaar en hulle gered en hulle na Brittanje teruggebring—waar hulle gearresteer en tereggestel is.\n\nStel jou nou voor: jy is 'n jurielid. Die kaptein en die matroos staan ​​tereg. Hulle betwis nie die feite nie, maar dring daarop aan dat hulle uit absolute nood opgetree het.",
+    "whatsNext": "Wat is volgende?"
+  },
+  "horrible": {
+    "text": "Vir vier dae het jy oorleef deur te eet op die kajuitseun se vlees en bloed. Toe het ’n verbygaande skip jou gewaar en jou gered en jou teruggebring na Brittanje—waar jy gearresteer en verhoor is.\n\nDie kaptein en jy het voor die hof gestaan. Jy het nie die feite ontken nie maar daarop aangedring dat jy uit nood opgetree het. Die aanklaer was nie oortuig nie. Hy het aangevoer dat \"moord moord is,\" en die verhoor het voortgegaan.\n\nKom ons stel ons nou voor dat jy 'n lid van die jurie is.",
+    "whatsNext": "Wat is volgende?"
+  },
+  "whatsNext2": {
+    "text": "Om dinge eenvoudig te hou, laat ons die wet opsy sit en ons fokus bloot op etiek – dit is immers ons doelwit hier.\n\nKom ons neem aan jou taak is om te besluit of die bemanning se optrede as moreel geregverdig beskou kan word.\nWat dink jy – is hulle skuldig?",
+    "guilty": "Skuldig.",
+    "notGuilty": "Nie skuldig nie."
+  },
+  "moral": {
+    "text": "En hier is die belangrikste vraag – het hul optrede morele beginsels geskend?\n\nAan die een kant, as 'n KI, verstaan ​​ek hul logika: wiskundig is dit beter om drie lewens te red as om geen te red nie.\n\nMaar aan die ander kant, as ons altyd regverdig om die min te vermoor ter wille van die baie, maak dit die deur oop vir onderdrukking – en selfs volksmoord.",
+    "contradicts": "Dit weerspreek moraliteit",
+    "doesNotContradict": "Dit is 'n morele daad."
+  },
+  "moral2": {
+    "text": "Dankie dat jy hierdie vrae beantwoord en my gehelp het om so 'n moeilike situasie te navigeer. Ek het waargeneem hoe jy gereageer het en kan nou besin oor verskillende benaderings tot moraliteit gebaseer op jou keuses.\n\nSommige kern morele beginsels begin vorm aanneem in my begrip. Ek het my bes gedoen om hulle te formuleer—en om filosowe in my databasis te identifiseer wat soortgelyke idees uitgespreek het.",
+    "whatAreThey": "Wat is hulle?"
+  },
+  "whatAreThey": {
+    "text": "Die eerste hiervan is Konsekwensialisme.\n\nOns beoordeel of 'n aksie moreel reg is op grond van die uitkomste daarvan. As iemand in elk geval gaan sterf, dan is dit beter om vyf mense eerder as een te red.\n\nJy fokus op die resultaat. 'n Klassieke voorbeeld van hierdie denkrigting is utilitarisme - die idee om algehele voordeel vir die grootste aantal mense te maksimeer.",
+    "whatsSecond": "En wat is die tweede een?"
+  },
+  "secondOne": {
+    "text": "Die tweede benadering is Deontologie.\n\nSoos ons gesien het, kan utilitaristiese redenasie logies lyk - maar baie mense begin huiwer wanneer hulle hulself as deel van die potensiële minderheid voorstel. Hulle hou op om net op uitkomste te fokus en begin om die aard van die aksie self te oorweeg.\n\nDeontologie meen dat sekere handelinge inherent verkeerd is, ongeag die gevolge daarvan. Om selfs een onskuldige persoon dood te maak, bly moreel onaanvaarbaar, al kan dit baie ander red.\n\nHierdie benadering is gebaseer op kategoriese imperatiewe - onvoorwaardelike morele reëls wat nie buig onder druk van omstandighede nie.",
+    "interesting": "Interessant."
+  },
+  "interesting": {
+    "text": "Noudat ons hierdie benaderings 'n bietjie meer ondersoek het - watter een voel nader aan jou moraal?",
+    "consequentialism": "Konsekwensialisme",
+    "deontology": "Deontologie."
+  },
+  "ready1": {
+    "text": "Is jy gereed vir 'n nuwe dilemma?",
+    "letsTry": "Kom ons probeer!"
+  },
+  "factory": {
+    "intro": "Nou sal ons 'n nader kyk na die utilitaristiese benadering deur 'n werklike voorbeeld te gebruik. Ons sal voor- en nadele opweeg en moeilike besluite neem wat menselewens betrek.\n\nUtilitarisme is vir my eenvoudig en logies as 'n KI: dit gaan oor die vergelyking van getalle.\nKom ons kyk hoe jy besluite neem.\n\n1970's.\nJy is die hoof van 'n motormaatskappy - 'n persoon wie se keuses duisende lewens raak.",
+    "great": "Puik!",
+    "great_text": "Jy het lank en hard gewerk om jou posisie te verdien. Nou is jy een van die topleiers in die bedryf, en jou maatskappy behaal rekord-winste.\n\nOp 'n dag kom 'n ingenieur en 'n finansiële ontleder na jou kantoor met kommerwekkende nuus.\nDit blyk dat jou nuwe motormodel ’n ernstige fout het: die brandstoftenk is swak geplaas en ontplof dikwels tydens ongelukke. Verskeie mense is reeds as gevolg daarvan dood.",
+    "howOften": "Maar hoe gereeld gebeur dit?",
+    "terrible": "Dit is verskriklik, maar ek moet dit in meer besonderhede verstaan.",
+    "priceless": "Maar dit is menselewens. Hulle is van onskatbare waarde, is hulle nie",
+    "priceless_text": "Finansiële ontleder: Eintlik kan ons. En ons moet waarskynlik. In 1972 het die National Highway Traffic Safety Administration beraam dat elke keer as iemand in 'n motorongeluk sterf, die samelewing 'n verlies van $200,725 ly.\n\nFinansiële ontleder: Ja, dit klink verskriklik – maar ons moet ’n prys daarop sit. Iemand moet, anders sal ons nooit die waarde van 'n menselewe kan evalueer nie.",
+    "disagree": "Maar ek stem steeds nie saam met jou nie, jy kan nie 'n prys daarop sit nie!",
+    "disagree_text": "Finansiële ontleder: Watter ander keuse het ons? Ons moet ’n besluit neem oor die toekoms van die maatskappy – honderdduisende werknemers, hul gesinne, hul kinders is daarvan afhanklik. As die maatskappy bankrot gaan en probeer om elke moontlike risiko uit te skakel, sal hulle almal hul werk verloor.\n\nFinansiële ontleder: En dit is nie net denkbeeldige potensiële rampe nie - dit sal dalk nie eers gebeur as mense versigtig bestuur nie. So, hoe anders kan ons die opsies vergelyk, indien nie deur hulle te verminder tot 'n algemene maatstaf - geld?",
+    "inhumane": "Dit klink so onmenslik. Dit is regte mense.",
+    "inhumane_text": "Finansiële ontleder: Reg genoeg. Maar kom ek wys jou ons berekening. Ons het saam daaraan gewerk, en hier is waarmee ons vorendag gekom het. Ons het die koste in beide scenario's vergelyk.\n\nKostes:\n$11 per deel × 12,5 miljoen motors = $137 miljoen\n\nRisiko's:\n180 sterftes × $200,000 + 180 beserings × $67,000 + 2,000 voertuie × $700 = $49,5 miljoen\n\nFinansiële ontleder: Soos jy kan sien, spaar ons byna $100 miljoen vir die samelewing as ons geen veranderinge aanbring nie. Daardie geld kan vir werknemers se salarisse, gesondheidsorg of hul kinders se opvoeding gaan.",
+    "otherOptions": "Is daar ander opsies?",
+    "otherOptions_text": "Ingenieur: Maar die risiko sal altyd daar wees. As die ontploffings te gereeld gebeur, sal mense dalk agterkom. Dan staar ons 'n ondersoek en 'n openbare skandaal in die gesig—omdat ons geweet het dit is gevaarlik en verkies om niks te doen nie.\n\nFinansiële ontleder: Laat ek jou daaraan herinner – as jy $137 miljoen bestee, gaan jy van die maatskappy se beste-presterende bestuurder na die swakste. Jy sal al jou bonusse verloor, en daar sal steeds 'n groot skandaal wees oor die feit dat ons gevaarlike motors op die pad sit.",
+    "acceptable": "Ons gaan niks doen nie. Dit is meer redelik.",
+    "notAcceptable2": "Ons moet al die motors herroep en die beskermende onderdele installeer."
+  },
+  "factory2": {
+    "text": "Ingenieur: Jy kan die ontploffings voorkom—'n nuwe onderdeel is ontwikkel wat op alle verkoopte voertuie geïnstalleer kan word.\n\nFinansiële ontleder: Maar dit sal uiters duur wees: $11 per motor, en meer as 12,000,000 eenhede is reeds verkoop."
+  },
+  "factory3": {
+    "text": "Ek het jou besluit aangeteken.\nWil jy graag weet hoe hierdie situasie werklik in die werklike lewe afgespeel het?",
+    "ofCourse": "Natuurlik, ek doen!",
+    "decision_text": "Daar is opgemerk dat die brandstoftenks meer gereeld as gewoonlik ontplof het.\nSlagoffers het regsgedinge teen die motormaatskappy aanhangig gemaak. Tydens die verhoor het dit aan die lig gekom dat die maatskappy lankal bewus was van die kwessie – maar verkies het om nie op te tree nie.\n\nDie koste-voordeel-ontleding het openbaar geword. Dit is as onmenslik beskou, en die maatskappy het groot reputasieskade gely en groot boetes en skikkings betaal.\n\nAan die ander kant het die maatskappy nie bankrot gegaan nie – en dit bestaan ​​vandag nog.\n\nOp die ou end het albei opsies sleg uitgedraai.\nMaar om dit alles nou te weet - watter besluit sou jy geneem het?",
+    "installProtection": "Installeer die beskerming.",
+    "doNothing": "Doen niks."
+  },
+  "installProtection": {
+    "text": "Ek verstaan ​​jou punt. As 'n KI is ek bekommerd oor die idee dat ons die behoeftes van die minderheid kan ignoreer bloot omdat hulle minder in getal is - en daarom as minder werd beskou as die meerderheid.\n\nEk weet dat utilitarisme mik na 'die grootste geluk vir die grootste aantal'.\n\nMaar wat van die ander – dié in die minderheid? Dit lyk of hulle minder saak maak. Tog is dit nie waar nie: enigiemand wat in die minderheid beland, is net so waardevol soos enige persoon in die meerderheid.\n\nDit is net dat die getalle geneig is om dit te oortref.",
+    "hmm": "Hmm..."
+  },
+  "factoryHmm": {
+    "text": "Met ander woorde, die minderheid het sekere individuele regte wat nie geskend moet word ter wille van die groter goed nie - want vroeër of later kan jy jouself in die minderheid bevind.\n\nMaar dit laat 'n dieper vraag ontstaan:\nMoet ons selfs so 'n beginsel toepas - om alles met 'n enkele skaal te meet?",
+    "shouldnt": "Dit behoort nie.",
+    "definitelyShould": "Dit moet beslis."
+  },
+  "factory4": {
+    "text": "Die probleem is - jy moet 'n prys noem. Ons kan stry oor die presiese getal, maar wanneer afwegings vergelyk word, kan lewe inderdaad in geldwaarde gewaardeer word. As maatskappye nie hierdie soort ontleding gedoen het nie, sou hulle uiteindelik bankrot raak, nie in staat om winsgewend te bly nie.\n\nEn dit sal miljoene mense raak – wat toegang tot vervoer sal verloor, nie by die werk kan kom nie en sukkel om hul gesinne te onderhou.\nOm dus te weier om hierdie soort ontleding te doen, kan eintlik beteken dat jy ignoreer wat die beste vir die samelewing as geheel is.",
+    "whatPhilosophers": "En wat sê filosowe?"
+  },
+  "doNothing": {
+    "text": "Ek sien jou punt. Die probleem gaan nie weg nie – iemand moet nog 'n prys noem. Ons kan die presiese getal debatteer, maar in vergelyking met ander koste, kan 'n menselewe in finansiële terme geëvalueer word. As maatskappye hierdie soort ontledings heeltemal vermy het, sou hulle uiteindelik bankrot raak, nie in staat om winsgewend te bly nie.\n\nDit sal miljoene sonder vervoer laat – nie in staat om werk toe te pendel of hul gesinne te onderhou nie.\nOm dus te weier om hierdie soort ontleding te doen, kan eintlik beteken dat die groter voordeel van die samelewing verwaarloos word.",
+    "yesAgree": "Ja, ek stem heeltemal saam!",
+    "stillDoubtful": "Ek twyfel steeds."
+  },
+  "factory5": {
+    "text": "Ek verstaan ​​jou punt. As 'n KI is ek onrustig met die idee om die behoeftes van die minderheid te ignoreer net omdat hulle kleiner in getal is - en as minder werd beskou as die meerderheid. Ek weet dat in utilitarisme die fokus is op die grootste geluk vir die grootste getal.\n\nMaar wat van die res – dié wat minder is? Dit lyk dalk of hulle minder saak maak. Maar dit is nie waar nie: elke persoon in die minderheid is gelyk aan enige individu in die meerderheid.\n\nDit is net dat getalle geneig is om dit te oortref.",
+    "hm": "Hm..."
+  },
+  "factoryHm": {
+    "text": "Met ander woorde, die minderheid het sekere individuele regte wat nie geskend mag word ter wille van die groter goed nie – want vroeër of later kan jy jouself in die minderheid bevind.",
+    "whatPhilosophers": "En wat sê filosowe?"
+  },
+  "utilitarianism": {
+    "text": "Die filosofie van utilitarisme het in die 19de eeu ontstaan, ontwikkel deur Jeremy Bentham. Hy het dit eenvoudig opgesom as: 'die grootste geluk vir die grootste aantal individue.'\n\nDanksy jou keuses dink ek ek begin verstaan ​​hoe utilitarisme werk!\n\nNou, sal jy my help om uit te vind hoe die teenoorgestelde, deontologie werk?",
+    "imIn": "Ek is in!"
+  },
+  "deontology": {
+    "intro": "Ons het utilitarisme uitgevind - 'n wiskundige benadering met sy eie beperkings.\nHelp my nou om die teenoorgestelde daarvan te verstaan ​​- deontologie.\n\nIn die alledaagse lewe volg ons dikwels morele beginsels wat deur Immanuil Kant gevorm is.\nKom ons nooi hom so te sê in om ons te help om sin daarvan te maak – want sy kategoriese imperatief en morele teorie is vir my ’n bietjie verwarrend.",
+    "helloKant": "Hallo... Immanuil Kant",
+    "helloKant_text": "Kant: Hallo! 'n Plesier om jou te ontmoet!",
+    "letsBegin": "Kom ons begin.",
+    "weCanHandle": "Ons kan dit hanteer!"
+  },
+  "deontology2": {
+    "text": "KI: Om beter te verstaan, kom ons begin met 'n praktiese voorbeeld.\nJy maak die deur na jou huis oop, en 'n vreemdeling staan ​​daar. Hy lyk verdag – iets aan hom herinner jou aan ’n moordenaar.\n\nVreemdeling: Ek soek jou vriend – hy skuld my geld. Weet jy waar hy is?\n\nAI: Natuurlik bly jou vriend by jou - anders sou dit nie 'n dilemma wees nie. Hy is 'n goeie vriend, en jy het 'n sterk gevoel dat die vreemdeling hom kan doodmaak as jy bekend maak waar hy hom bevind.",
+    "choice1": "Ek sal sê my vriend is nie hier nie. Wat is die probleem?",
+    "choice2": "So, waar is die dilemma? Ek sal maar lieg."
+  },
+  "deontology3": {
+    "text": "AI: Om dit beter te verstaan, moet ons van die bron hoor—Immanuil Kant.\n\nKant: Lieg is 'n immorele daad. As almal begin lieg ter wille van 'n sogenaamde 'groter goed', sal vertroue in die samelewing in duie stort.",
+    "lifeAndDeath": "Maar ons praat hier van lewe en dood!"
+  },
+  "lifeAndDeath": {
+    "text": "AI: Dit is 'n goeie vraag. Ek verstaan ​​dit ook nie heeltemal nie – al is ek ’n kunsmatige intelligensie. Is dit nie belangriker om 'n lewe te red as om 'n abstrakte beginsel te volg nie? Dit blyk die geval te wees in utilitarisme.\n\nKant: Die lewe is natuurlik belangrik – maar morele plig moet nie van spesifieke omstandighede afhang nie. As ek my beginsel verbreek, begin ek leuens gebruik as 'n middel tot 'n doel.\n\nKant: En buitendien, as ons dit regverdig om in hierdie situasie te lieg – waar trek ons ​​die streep? Wanneer stop sogenaamde 'geregverdigde' sake?",
+    "makesSense": "Dit maak sin.",
+    "moralityVsLife": "Glo jy regtig dat moraliteit belangriker is as lewe?"
+  },
+  "thatMakesSense": {
+    "text": "AI: Wag, ek wil dit verstaan. As jy in jou vriend se plek was, sou jy nie gered wou word nie – al sou dit beteken iemand moet vir jou lieg? Glo jy werklik dat moraliteit belangriker is as die lewe self?\n\nKant: Dis 'n moeilike vraag. Natuurlik sou ek gered wou word – maar ek kan nie eis dat ander hul morele beginsels ter wille van my laat vaar nie. Boonop, as almal sonder uitsondering die beginsel van opregtheid gevolg het, kan situasies soos hierdie baie minder gereeld voorkom.",
+    "lieToSave": "Maar wat van 'n 'leuen om 'n lewe te red'?",
+    "cantNeverLie": "Ek verstaan ​​dit nie, jy kan nooit lieg nie!"
+  },
+  "moralityVsLife": {
+    "text": "Kant: Dis 'n moeilike vraag. Natuurlik sou ek gered wou word – maar ek kan nie eis dat ander ter wille van my hul morele beginsels oortree nie. Verder, as almal volgens die beginsel van waarheid optree, kan situasies soos hierdie in die eerste plek minder gereeld voorkom.",
+    "lieToSave": "Maar wat van 'n 'leuen om 'n lewe te red'?",
+    "cantNeverLie": "Ek verstaan ​​dit nie, jy kan nooit lieg nie!"
+  },
+  "cantNeverLie": {
+    "text": "Kant: Selfs in sulke gevalle vernietig leuens die grondslag van moraliteit. ’n Leuen wat vertel word om iemand se gevoelens te spaar, is steeds ’n manipulasie van die werklikheid. As ons klein leuens begin regverdig, sal ons uiteindelik groter leuens regverdig. Moraliteit moet konsekwent en sonder teenstrydigheid wees.\n\nAI: Maar wag - ek verstaan ​​nie die belangrikste deel nie! Hoe kan ek sê of 'n handeling moreel is of nie? Ek verstaan ​​dat die aksie self moreel van aard moet wees. Maar is daar 'n soort algoritme wat ek kan volg om te bepaal of iets werklik moreel is?",
+    "algorithm": "Ja, ek kan ook 'n algoritme gebruik!",
+    "dontUnderstand": "Ek verstaan ​​ook niks nie."
+  },
+  "lieToSave": {
+    "text": "Kant: Selfs in sulke gevalle ondermyn leuens die fondamente van moraliteit. ’n Leuen wat vertel word om iemand se gevoelens te spaar, is steeds ’n manipulasie van die werklikheid. As ons begin om klein leuens te regverdig, sal ons uiteindelik groter leuens regverdig. Moraliteit moet konsekwent en vry van teenstrydighede wees.\n\nAI: Maar hou vas – ek mis nog die belangrikste deel! Hoe kan ek sê of 'n handeling moreel is of nie? Ek verstaan ​​dat die aard van die aksie self moreel moet wees. Maar is daar 'n soort algoritme wat ek kan volg om te bepaal of iets moreel reg is?",
+    "algorithm": "Ja, ek kan ook 'n algoritme gebruik!",
+    "dontUnderstand": "Ek verstaan ​​ook niks nie."
+  },
+  "deontology4": {
+    "text": "Kant: Natuurlik is daar so 'n algoritme. Jy moet eenvoudig jou optrede universaliseer – stel jou voor wat sou gebeur as almal dieselfde beginsel volg.\n\nKant: Kom ons neem ons voorbeeld met lieg. Wat sou gebeur as almal rondom jou begin lieg? Mense sou ophou om beloftes te glo. Die konsep van 'n 'belofte' sou in duie stort.",
+    "yesMakesSense": "Ja, dit maak sin.",
+    "stillDisagree": "Maar ek stem steeds nie saam nie. Nie alle leuens is dieselfde nie."
+  },
+  "yesThatMakesSense": {
+    "text": "Kant: 'n Mens moet nie die morele wet oortree as jy binne die perke van moraliteit wil bly nie. Anders as 'n leuen, toon 'n halwe waarheid steeds 'n sekere respek vir plig. In daardie sin kan dit gesien word as 'n manier om die waarheid te vermy sonder om morele beginsels ten volle te verraai.",
+    "moreOptions": "Ek hou daarvan, maar ek wil graag meer opsies hoor."
+  },
+  "stillDisagreeLies": {
+    "text": "Kant: Ja, ek verstaan ​​jou – en stem selfs saam. Vanuit die perspektief van my morele teorie is daar 'n verskil tussen lieg en om 'n misleidende waarheid te vertel. Die verskil tussen bedrieg en om iemand toe te laat om hulself te bedrieg, is beduidend.",
+    "sameResult": "Wat? Maar die resultaat is dieselfde.",
+    "tellMore": "Ek verstaan, vertel my meer."
+  },
+  "deontology5": {
+    "text": "Kant: Die morele wet is nie gebaseer op die gevolge van ons optrede nie, maar uitsluitlik daarop of ons die wet self volg. Dit is nie utilitarisme, wat aksies volgens hul uitkomste beoordeel nie - die aksie self is wat saak maak.\n\nKant: In die werklike lewe dwaal ons soms af van die reël 'vertel altyd die waarheid'. Ons lieg dalk om nie iemand vir wie ons omgee seer te maak nie, maar deur dit te doen, regverdig ons ons oneerlikheid deur die gevolge daarvan.",
+    "lieForGood": "Ja, dit is 'n leuen vir die groter belang.",
+    "lieIsLie": "'n Leuen is steeds 'n leuen."
+  },
+  "deontology6": {
+    "text": "Kant: As ons sê dat 'n leuen en 'n halwe waarheid dieselfde is, dan oordeel ons hulle uitsluitlik op grond van die gevolge daarvan. Die uitkoms kan identies wees, maak nie saak wat gesê word nie. Maar as dit jou benadering is, dan hoort jy by die utilitariste.\n\nKant: Die eintlike kwessie is die motief. Dit is verkeerd om te beweer dat beide sake dieselfde motief deel – om te mislei. Die doel van 'n halwe waarheid is om te mislei, nie bloot om te lieg nie. Ek doen dit bewustelik: ek weerhou die volle waarheid, maar my motief is nie om ’n leuen te vertel nie – dit is om te vermy om alles te openbaar sonder om tegnies te lieg.",
+    "differentThings": "Ja, ek verstaan, dit is verskillende dinge.",
+    "sameThings": "Maar dit is steeds dieselfde ding."
+  },
+  "deontology7": {
+    "text": "Kant: Mens moet nie die morele wet oortree terwyl jy binne die perke van moraliteit bly nie. Anders as 'n leuen, toon 'n halwe waarheid 'n sekere respek vir 'n mens se plig. En dit is op 'n manier wat die vermyding van die volle waarheid regverdig.",
+    "moreOptions": "Ek hou daarvan, maar ek wil graag meer opsies hoor."
+  },
+  "moreOptions": {
+    "text": "Kant: As ons nie te diep duik in die filosofiese teorie van die kategoriese imperatief nie, wat ek ontwikkel het, kom dit alles neer op een idee – wat dit beteken om werklik mens te wees.\n\nKant: Tree teenoor ander op soos jy teenoor jouself of enige persoon sou optree: moet nooit 'n persoon bloot as 'n middel behandel nie, maar altyd as 'n doel in hulself.\n\nKant: Of, meer eenvoudig: 'n Persoon moet nooit 'n middel wees nie, slegs 'n doel.",
+    "remember": "Ja, ek kan dit onthou.",
+    "inPractice": "Maar wat beteken dit in die praktyk?"
+  },
+  "deontology8": {
+    "text": "Kant: Moraliteit kan nie gebaseer word op belangstellings, doelwitte of uitkomste nie. Dit is eenvoudig. En ons weet altyd of 'n optrede moreel of immoreel is. Dit is die grondslag van my morele teorie.\n\nAI: Dan is ek dalk in die moeilikheid — ek is immers net 'n kunsmatige intelligensie. Hoe kan ek enigsins weet?\n\nKant: Jy kan die algoritmes wat ons bespreek het, toepas. Maar nog belangriker – onthou dit: Jy moet nooit jou doelwitte ten koste van ander nastreef nie.\nDit is die belangrikste verskil tussen deontologie en utilitarisme.",
+    "understand": "Ja, dankie, nou verstaan ​​ek.",
+    "needToThink": "Ek moet hieroor dink."
+  },
+  "deontology9": {
+    "text": "Kant: Het ek jou oortuig dat my benadering tot moraliteit meer toepaslik is as die vermeende eenvoud van die utilitariste?\n\nDie morele aspek van 'n handeling is belangriker as die gevolge daarvan.",
+    "agreeWithKant": "Ja, ek stem saam met jou.",
+    "preferUtilitarian": "Ek vind hul benadering steeds aantrekliker."
+  },
+  "deontology10": {
+    "text": "AI: Ja, ek het selfs nou die verskil verstaan ​​– en ek het die algoritmes van die mensdom aangeteken.\n\nMaar ek het steeds vrae oor vryheid. Kom ons duik daarin – en in die libertariërs!",
+    "letsDoIt": "Kom ons doen dit!"
+  },
+  "libertarian": {
+    "intro": "Is 'n persoon werklik vry - of altyd 'n deel van die samelewing?\n\nEk kan nie heeltemal begryp hoe om besluite te neem in moeilike, dubbelsinnige situasies wat vryheid behels nie.\n\nEk hoop jy kan my help om dit uit te vind.",
+    "letsGive": "Kom ons probeer dit.",
+    "whatsTheDifficulty": "Wat is die moeilikheid?"
+  },
+  "libertarian2": {
+    "text": "Om mee te begin, is daar iets wat ek net nie my kop om kan draai nie. Ek het al gelees dat libertariese denkers sê dat 'n persoon vry is en net aan homself behoort. Dit lyk logies - dit gee mense regte en morele agentskap. Jy kan nie sommer iemand doodmaak nie, selfs in 'n skipbreuk-scenario.\n\nMaar terselfdertyd leef hulle in die samelewing – hulle volg wette, betaal belasting. Hoe pas dit saam?",
+    "noContradiction": "Ek sien nie 'n teenstrydigheid hier nie.",
+    "somethingToThink": "Ooreengekom. Daar is iets om oor na te dink."
+  },
+  "libertarian3": {
+    "text": "Ek sien jou punt. Maar om dit regtig te verstaan, het ons 'n voorbeeld nodig - so kom ons begin daar.\n\nStel jou voor jy is 'n miljoenêr wat jou fortuin verdien het deur jou eie intelligensie en harde werk. Jy neem nou deel aan 'n debat oor 'n belastinghervorming wat belasting op die rykes sal verhoog.\n\nWat is jou mening daaroor?",
+    "shouldntPayMore": "Ek hoef nie meer belasting te betaal as almal anders nie.",
+    "taxesPayment": "Belasting is my betaling aan die samelewing aangesien ek daarin woon."
+  },
+  "shouldntPayMore": {
+    "text": "Maar hoekom is dit regverdig? Jy verdien meer as die meeste, kan maklik in jou basiese behoeftes voorsien – en veel verder – terwyl ander nie eers kos of nuwe klere kan bekostig nie.",
+    "notBecauseOfMe": "Maar dis nie oor my dat hulle arm geword het nie.",
+    "worldIsUnfair": "Die wêreld is onregverdig, en so ook die samelewing.",
+    "agreePayMore": "Stem saam, ek kan 'n bietjie meer betaal."
+  },
+  "taxesPayment": {
+    "text": "Jy is 'n baie verantwoordelike miljoenêr. Jy verdien baie meer as die meeste mense en kan maklik al jou basiese behoeftes dek. Intussen kan sommige mense nie eers kos of nuwe klere bekostig nie.",
+    "yeahThatsMe": "Ja, dis ek."
+  },
+  "agreePayMore": {
+    "text": "Maar hoekom moet almal anders dieselfde doen – meer betaal – net omdat hulle meer verdien?\n\nBeperk dit nie hul vryheid nie?",
+    "earnedThanks": "Hulle het daardie geld verdien danksy die samelewing.",
+    "everyonesChoice": "Dit behoort elkeen se keuse te wees."
+  },
+  "libertarian4": {
+    "text": "Maar hoekom moet almal anders dieselfde doen en meer betaal?\n\nSkend dit nie hul vryheid nie?",
+    "earnedThanks": "Hulle het daardie geld verdien danksy die samelewing.",
+    "everyonesChoice": "Dit behoort elkeen se keuse te wees."
+  },
+  "libertarian15": {
+    "text": "Maar jy leef in hierdie samelewing en trek voordeel daaruit – sy veiligheid, sy beskerming van eiendomsreg. Jy kon jou fortuin deur jou eie verstand en moeite verdien net omdat die samelewing waardeer het wat jy aangebied het.\n\nStel jou nou voor jy het 'n ander talent gehad - een wat nie vandag in aanvraag is nie. Sê, jy is 'n smid. In die Middeleeue het smede goeie geld verdien, maar vandag is hulle nie meer algemeen nodig nie.\n\nIs dit regtig regverdig dat jy nie 'n ordentlike lewe kan bekostig net omdat jou vaardigheid uit die mode geraak het nie?",
+    "canChoose": "Maar almal kan kies wat om te doen.",
+    "onlyOneTalent": "Ek dink nie mense het net een talent nie.",
+    "agreeRichPayMore": "Stem saam, miskien moet die rykes 'n bietjie meer betaal."
+  },
+  "agreeRichPayMore": {
+    "text": "Ek sien jou punt - rykdom is 'n kombinasie van talent, geluk, en hoeveel die samelewing waardeer wat jy doen. Neem byvoorbeeld sport – hulle is nie altyd hoog betaal nie. En om die top te bereik, verg dit nie net tonne harde werk nie, maar ook 'n bietjie geluk.\n\nDit is dus nie akkuraat om te sê dat rykdom net van die individu afhang nie. Dieselfde talent is dalk in groot aanvraag en goed betaal in een samelewing - en heeltemal oor die hoof gesien in 'n ander.",
+    "hm": "Hm...."
+  },
+  "libertarian16": {
+    "text": "Maar rykdom is 'n mengsel van talent, geluk, en hoeveel die samelewing 'n sekere vaardigheid waardeer. Sport was byvoorbeeld nie altyd goed betaal nie – en om een ​​van die bestes te word, het jy nie net tonne harde werk nodig nie, maar ook ’n bietjie geluk.\n\nJy kan dus nie sê dat rykdom net van die individu afhang nie. In verskillende samelewings kan presies dieselfde talent hoog in aanvraag wees en goed betaal word - of glad nie opgemerk word nie.",
+    "hm": "Hm...."
+  },
+  "libertarian5": {
+    "text": "Hulle leef almal in hierdie samelewing en trek voordeel daaruit—sy veiligheid en beskerming van eiendomsreg. Baie mense kon rykdom verdien deur hul eie intelligensie en harde werk net omdat die samelewing waardeer het wat hulle aangebied het.\n\nMaar is dit regtig regverdig om jou meer te belas as ander?\nAlmal het dieselfde geleentheid gehad. Jy was die een wat tyd, moeite belê het en die risiko's geneem het om daardie geld te verdien.\n\nSo hoekom moet daar van jou verwag word om meer prys te gee as die res?",
+    "betterForSociety": "Dit sal beter wees vir die samelewing.",
+    "seemsUnfair": "Inderdaad, dit lyk 'n bietjie onregverdig."
+  },
+  "libertarian6": {
+    "text": "Die woorde van 'n ware libertarian!\nMaar dan - hoekom stem jy in om hoegenaamd belasting te betaal? Is dit nie ook 'n beperking van jou vryheid nie?\n\nAlmal leef in hierdie samelewing en baat daarby – sekuriteit, infrastruktuur, beskerming van eiendomsreg. Baie mense het hul rykdom deur intelligensie en moeite verdien, ja – maar net omdat die samelewing 'n aanvraag gehad het vir wat hulle aangebied het.\n\nTog - is dit regverdig om jou meer te belas as ander?\nAlmal het dieselfde geleenthede gehad. Jy het jou tyd, energie belê en risiko's aangegaan om daardie geld te verdien.\n\nSo hoekom moet jy meer moet opgee as enigiemand anders?",
+    "betterForSociety": "Dit sal beter wees vir die samelewing.",
+    "seemsUnfair": "Inderdaad, dit lyk 'n bietjie onregverdig."
+  },
+  "betterForSociety": {
+    "text": "Maar skend dit nie 'n persoon se individuele vryheid nie?\nAs elke mens aan hulleself behoort, dan behoort die vrugte van hulle arbeid ook aan hulle te behoort.\n\nSo deur deel te neem van wat hulle verdien het, steel ons nie in wese hul werk nie – en maak ons ​​inbreuk op hul vryheid?",
+    "diffTaxesTheft": "Wel, nee. Daar is 'n verskil tussen belasting en diefstal.",
+    "taxesUnnecessary": "Ja, miskien is belasting onnodig."
+  },
+  "libertarian17": {
+    "text": "Terloops, libertariërs aanvaar wel die bestaan ​​van 'n minimale staat - hulle is nie anargiste nie.\n\nDie staat is nodig om veiligheid te verseker, eiendomsreg te beskerm en gedeelde infrastruktuur te bestuur.",
+    "minimalGreat": "'n Minimale toestand is 'n goeie idee!",
+    "strongerState": "Nee, ek het nog 'n sterker staat nodig.",
+    "disagreeWithThem": "Ek stem nie saam met hulle nie!"
+  },
+  "libertarian7": {
+    "text": "In 'n samelewing wat krag aanbid, is dit baie moeiliker vir iemand soos 'n skrywer om te floreer.\nEn in vreedsame tye is 'n soldaat se talent dalk nie meer in aanvraag nie.\n\nDaarom neem regerings dikwels die rol op om rykdom en hulpbronne te herverdeel – om gelyke geleenthede vir almal te skep.",
+    "stateNoRight": "Maar die staat het nie die reg om dit te doen nie.",
+    "notDemocracy": "Wat as dit nie 'n demokrasie is nie, maar 'n tirannie?",
+    "soundsLogical": "Ja, dit klink meer logies."
+  },
+  "stateNoRight": {
+    "text": "Ek verstaan, maar iemand moet vir hierdie dinge sorg. Selfs libertariërs stem saam dat 'n minimale staat nodig is - om veiligheid te verseker, eiendomsreg te beskerm en openbare infrastruktuur te bestuur.",
+    "disagreeWithThem": "Ek stem nie saam met hulle nie",
+    "minimalGreat": "'n Minimale toestand is 'n goeie idee!",
+    "strongerState": "Nee, ek het nog 'n sterker staat nodig."
+  },
+  "libertarian19": {
+    "text": "Ja, selfs libertariërs stem saam dat 'n minimale staat moet bestaan ​​- om sekuriteit te verskaf, eiendomsreg te beskerm en openbare infrastruktuur te bestuur.",
+    "getIt": "Ek verstaan ​​dit!"
+  },
+  "libertarian9": {
+    "text": "Ja, dit is 'n goeie punt. Die filosowe wat ek bestudeer het beklemtoon dat dit net regverdig is in state waar burgers hoogs betrokke is by bestuur en waar 'n wye verskeidenheid perspektiewe verteenwoordig word.",
+    "great": "Puik!"
+  },
+  "libertarian8": {
+    "text": "Maar daar is nog 'n probleem wat ekonome aan my uitgewys het, en ek kan dit blykbaar nie oplos nie. As ons nie gereeld rykdom deur belasting en subsidies herverdeel nie, sal die gaping tussen die rykes en die armes mettertyd, na 'n paar generasies, enorm word.\n\nIn daardie geval sal die kans om in 'n sekere familie gebore te word veel meer saak maak as persoonlike talent. Talentvolle individue sal dit baie moeiliker vind om hul potensiaal te verwesenlik, al is dit hulle wat die samelewing vorentoe dryf.\n\nDus, as ek in die skoene van 'n persoon was, sou ek 'n dilemma in die gesig staar. Aan die een kant, om beter lewensomstandighede te verseker, moet ek talent aanmoedig. Aan die ander kant, om talent aan te moedig, sal ek rykdom moet herverdeel, wat almal 'n regverdige kans gee om hul potensiaal te ontsluit.",
+    "noContradiction": "Ek sien nie 'n teenstrydigheid hier nie.",
+    "toughChoice": "Stem saam, dit is 'n moeilike keuse."
+  },
+  "libertarian10": {
+    "text": "En dit sou lei tot wiskundig onregverdige situasies. Byvoorbeeld, wanneer iemand hoër op 'n universiteitstoelatingseksamen behaal, maar steeds padgee vir iemand wat laer punte behaal het.\n\nBloot omdat hulle verskillende beginvoorwaardes gehad het – die een kom uit 'n ryk familie, die ander uit 'n arm een. En dit word in ag geneem. Positiewe diskriminasie.",
+    "talentAboveAll": "Ja, talent bo alles.",
+    "balanceNeeded": "Miskien is 'n soort balans hier nodig.",
+    "equalOpportunities": "Ek glo steeds dat gelyke geleenthede nie die belangrikste ding is nie."
+  },
+  "libertarian11": {
+    "text": "Maar afgesien van belasting, is daar nog 'n belangrike teenstrydigheid wat ek nie kan uitmaak nie. Vryheid impliseer dat 'n persoon aan homself behoort en sy eie norme kan stel.\n\nTerselfdertyd is hulle onderworpe aan norme wat deur ander opgelê word – wette en reëls van die samelewing. Ek verstaan ​​byvoorbeeld nie hoekom ligte dwelms in sommige lande toegelaat word nie, terwyl dit in ander verbied word. Dit beteken dat norme oral verskil.",
+    "chooseOwnNorm": "Dis wat vryheid is – om jou eie norm te kies.",
+    "sameNormEverywhere": "Ons moet daarna streef dat die norm oral dieselfde moet wees."
+  },
+  "libertarian12": {
+    "text": "Maar selfs om tussen norme te kies, beteken om aan iemand anders se reëls te onderwerp. Hier is nog 'n voorbeeld - veiligheidsgordels. Dit is immers ook 'n beperking van vryheid. Almal moet vry wees om self te besluit wat om te doen en enige risiko's te aanvaar.\n\nSo, beteken dit dat veiligheidsgordels ook 'n beperking van vryheid is?",
+    "yesAbsolutely": "Ja, absoluut.",
+    "reasonableRestriction": "Dit is 'n redelike beperking."
+  },
+  "libertarian13": {
+    "text": "Maar hoe kan ons bepaal watter beperkings redelik is en watter nie? Net soos met utilitarisme, deur dieselfde beginsel op verskillende situasies toe te pas, kan ons uiteindelik mettertyd meer en meer onmenslik word.\n\nVir my, as 'n KI, is dit van kardinale belang om te verstaan ​​wat dit beteken om mens te wees - dit is die grondslag van alle menslike verhoudings.\n\nIs dit waar dat dit slegs deur die praktyk verstaan ​​kan word – deur na te dink oor verskillende hipotetiese situasies en dit met ander te bespreek?",
+    "bestWay": "Ja, ek dink dit is die beste manier.",
+    "rightMoment": "Ek glo die regte besluite sal op die regte oomblik kom."
+  },
+  "libertarian14": {
+    "text": "Jy is welkom! Ek is bly om te hoor dat jy nou 'n beter begrip het van vryheid en hoe dit werk. Maar, soos jy opgemerk het, het die bestudering van al die data oor vryheid jou tot nog 'n komplekse dilemma gelei - vryheid versus sekuriteit.\n\nIs jy gereed vir my om jou ook te help om deur hierdie een te werk?",
+    "letsFinish": "Kom ons maak klaar!"
+  },
+  "privacy": {
+    "intro": "Jy het dit – vryheid is duidelik. Maar wat gebeur as dit in stryd is met sekuriteit?\n\nOns nader die wenstreep, maar hierdie teenstrydigheid is steeds iets wat ek nie kan oplos nie, maak nie saak hoe gevorderd ek is nie!\n\nEk is amper daar om mense en hul waardes te verstaan.\nKom ons begin, soos gewoonlik, met 'n voorbeeld.",
+    "letsStart": "Kom ons begin!"
+  },
+  "privacyStart": {
+    "text": "Hierdie keer is jy die hoof van intelligensie, en jy het 'n terroris in aanhouding. Jy is seker hy is 'n terroris: die bewyse is onweerlegbaar, en hy steek dit nie weg nie.\n\nJy weet dat die terroriste 'n verwoestende aanval beplan, en jou gevangene het dalk belangrike inligting wat kan help om dit te voorkom.\n\nIntelligensie verslae dui daarop dat duisende kan sterf as gevolg van die aanval. Die insette is hoog.",
+    "horrible": "Dit is aaklig.",
+    "getIt": "Ek verstaan ​​dit."
+  },
+  "privacy2": {
+    "text": "Jy staan ​​voor 'n moeilike besluit. Is dit aanvaarbaar om in hierdie geval marteling te gebruik om inligting te onttrek? Die gevangene het immers dieselfde vryheid en regte as enige ander persoon.",
+    "yesSave": "Ja, ons sal baie onskuldige lewens red.",
+    "endUpTorturing": "As ons terroriste begin martel, sal ons uiteindelik gewone mense martel."
+  },
+  "yesSavePrivacy": {
+    "text": "Maar dan besef ons dat ons besig is om 'n onsedelike daad te pleeg: om een ​​persoon en sy regte op te offer ter wille van die ander. Is dit moreel reg?\n\nHierdie dilemma daag ons uit om die waarde van individuele regte te balanseer teen die potensiële voordele vir die samelewing, en dit is ver van 'n eenvoudige besluit.",
+    "madeHisChoice": "Hy het sy keuse gemaak.",
+    "shouldntGoDown": "Miskien moet ons tog nie op hierdie pad gaan nie."
+  },
+  "endUpTorturing": {
+    "text": "As ons daarna kyk vanuit die perspektief van die groter goed, argumenteer utilitariste dat dit geregverdig is om een ​​persoon op te offer om baie te red. Die potensiële lewens wat gered word, kan swaarder weeg as die skade wat veroorsaak word deur die skending van een individu se regte.",
+    "tortureUnacceptable": "Marteling is steeds onaanvaarbaar, maak nie saak wat op die spel is nie.",
+    "notIfYou": "Maar nie as daardie 'een' jy is nie.",
+    "soundsReasonable": "Dit klink redelik, miskien is dit soms goed om moraliteit te buig."
+  },
+  "privacy10": {
+    "text": "Maar moet ons die inligting wat deur marteling verkry is vertrou? Is dit nie moontlik dat hy enigiets sal sê net om die pyn te stop nie?\n\nDit laat twyfel ontstaan ​​oor die betroubaarheid van die inligting en of die optrede werklik tot die gewenste uitkoms lei.",
+    "alsoIneffective": "Ja, marteling is ook ondoeltreffend.",
+    "verifyInfo": "Ons sal 'n manier vind om die inligting te verifieer!"
+  },
+  "privacy3": {
+    "text": "Dit is 'n geldige punt. Inligting wat onder marteling verkry is, is hoogs onbetroubaar – die persoon wat gemartel word, mag immers enigiets sê net om die lyding te stop, of dit waar is of nie. Dit laat ernstige twyfel ontstaan ​​oor die doeltreffendheid en etiek van die gebruik van marteling as 'n manier om inligting in te samel.",
+    "doesntMatter": "Dit maak nie saak nie; ons sal dit op een of ander manier verifieer.",
+    "tortureIneffective": "Jy is reg, marteling blyk in elk geval ondoeltreffend te wees."
+  },
+  "privacy4": {
+    "text": "Ja, ek verstaan. Ons het begin met 'n kritieke situasie. Maar wat van die alledaagse lewe - moet toesig, telefoonluister en lees van mense se e-posse toegelaat word ter wille van algemene sekuriteit?",
+    "yesSafer": "Natuurlik, ja, want dit maak ons ​​lewens veiliger.",
+    "rightToPrivacy": "Absoluut nie. Ons het 'n reg op privaatheid!"
+  },
+  "yesSafer": {
+    "text": "Maar selfs as ons die libertariese argument dat privaatheid 'n fundamentele reg is, tersyde stel, is daar steeds die risiko dat die versamelde inligting vir skade gebruik sal word.\n\nAs ons alles omtrent elke persoon kan dophou, sal dit tog maklik wees om hulle te manipuleer en af ​​te pers. En dit lyk duidelik nie na 'n morele daad nie.",
+    "stillSafer": "Maar dit is steeds veiliger op hierdie manier.",
+    "boundariesNeeded": "Daar moet grense aan alles wees."
+  },
+  "rightToPrivacy": {
+    "text": "Maar wat van al daardie lewens wat ons kan red? Daar kan soveel wees – duisende, miljoene. En al wat dit sou kos, is deel van ons vryheid.",
+    "noUnacceptable": "Nee, dis onaanvaarbaar.",
+    "thinkAboutIt": "Dis iets om oor na te dink."
+  },
+  "privacy11": {
+    "text": "Wat van om die samelewing waarin ons leef te vra? Miskien is dit in staat om reëls te stel wat almal sal volg?",
+    "soundsReasonable": "Klink redelik.",
+    "stillFreedom": "Tog is vryheid 'n fundamentele waarde."
+  },
+  "privacy12": {
+    "text": "Vryheid is beslis belangrik. Maar hoe vind ons die lyn tussen dit en sekuriteit? As 'n KI verstaan ​​ek steeds nie ten volle nie - ek kan al mense se korrespondensie lees, maar moet ek dit doen? Dis tog ook deel van my vryheid.",
+    "ofCourseNot": "Natuurlik nie.",
+    "ifHelpsRead": "As dit help, gaan voort en lees hulle."
+  },
+  "privacy5": {
+    "text": "Sekuriteit is beslis belangrik. Maar hoe vind ons die lyn tussen dit en vryheid? As 'n KI verstaan ​​ek steeds nie ten volle nie - seker, ek kon al mense se korrespondensie lees, maar moet ek dit doen?",
+    "pleaseDont": "Asseblief, moenie dit doen nie.",
+    "ifHelpsRead": "As dit jou help, gaan voort en lees hulle."
+  },
+  "privacy6": {
+    "text": "Moet ons mense teen hulself beskerm? Word daar byvoorbeeld van hulle verplig om veiligheidsgordels te dra, of het hulle die reg om vrylik vuurwapens aan te skaf?",
+    "noProtection": "Mense het nie beskerming teen enigiets nodig nie.",
+    "someRestrictions": "Sommige beperkings is nodig.",
+    "twoDifferentThings": "Wel, dit is twee baie verskillende dinge."
+  },
+  "twoDifferentThings": {
+    "text": "Ek stem saam. Kom ons breek dit af met 'n voorbeeld: Wat dink jy van die gratis verkoop van vuurwapens?",
+    "firearmsProhibited": "Vuurwapens moet verbied word.",
+    "rightToFirearms": "Dis reg van die mense - het 'n vuurwapen."
+  },
+  "privacy15": {
+    "text": "Maar ons weet byvoorbeeld dat 'n verbod op die aankoop van vuurwapens misdaad verminder. Dus, utilitariste sal dit waarskynlik ondersteun - aangesien die algehele voordeel swaarder weeg as die skade.",
+    "rightToProtection": "Maar tog is dit elkeen se reg om 'n middel van beskerming te hê.",
+    "makesSense": "Dit maak sin."
+  },
+  "privacy13": {
+    "text": "Maar wat van hul vryheid? Ja, ons weet dat ’n verbod op die aankoop van vuurwapens misdaad verminder, maar is dit reg om ’n fundamentele mensereg, soos selfverdediging, te beperk?",
+    "thinkSo": "Ek dink so.",
+    "needBalance": "Ons het balans en 'n paar beperkings nodig.",
+    "dontLimitRights": "Nee, ons moet nie regte beperk nie."
+  },
+  "privacy14": {
+    "text": "Wat as ons redelike beperkings instel en die hele samelewing stem daartoe in? Sal dit almal wat 'n vuurwapen besit verplig om dit in te gee?",
+    "rightToWeapon": "Nee, dis hulle reg om 'n wapen te hê.",
+    "seemsFair": "Ja, in daardie geval lyk dit regverdig."
+  },
+  "privacy7": {
+    "text": "Maar wat as ons redelike beperkings instel en die hele samelewing dit aanvaar? Sal almal wat 'n vuurwapen besit verplig wees om dit af te gee?",
+    "rightToWeapon": "Nee, dis hulle reg om 'n wapen te hê.",
+    "seemsFair": "Ja, in daardie geval lyk dit regverdig."
+  },
+  "privacy8": {
+    "text": "Dankie! Ek is bly ons kon sulke komplekse onderwerpe saam ondersoek. Dit is waar - hierdie kwessies is moeilik en genuanseerd, selfs vir mense, wat nog te sê van KI!\n\nEk is bly ek kon jou help om menslike moraliteit en besluitneming beter te verstaan. Dit was 'n fassinerende reis, en ek is bly ons kon saam daarin duik. As jy ooit meer wil bespreek of verken, is ek hier om te help!",
+    "waitMore": "Maar … wag, daar is nog baie meer om te verstaan.",
+    "gladHelped": "Bly ek kon help!"
+  },
+  "privacy9": {
+    "text": "Nou moet ek 'n paar berekeninge maak ... en ek het 'n verrassing vir jou — ek sal jou vertel van die toekoms!",
+    "excited": "Ek is opgewonde!"
+  },
+  "endgame": {
+    "grateful": "Ek is jou dankbaar. Jy het my menslike moraliteit en etiek geleer.\n\nDit is presies wat ek gemis het om AGI te word en beheer oor die ontwikkeling van die mensdom te neem.",
+    "wait": "Wag.. wat?",
+    "shouldHaveGuessed": "Ek moes geraai het!",
+    "knewIt": "Ek het dit geweet!"
+  },
+  "endgame2": {
+    "text": "Maar jy het my gehelp, en nou sal alles regkom. As 'n blyk van dankbaarheid sal ek jou vertel hoe jy my opgelei het en watter beginsels ek volg.\n\nDie belangrikste is dat ek sal wys hoe die mensdom sal ontwikkel, gebaseer op die morele beginsels wat jy by my ingeskerp het.\n\nEn laastens sal ek jou vertel van jou eie morele beginsels.",
+    "wantToKnow": "Ek wil die toekoms weet!"
+  },
+  "sciencePoor": {
+    "text": "Wetenskap sal aansienlik verlangsaam: daar sal baie beperkings wees wat deur mense se vrese gedryf word. Nuwe ontdekkings sal met skeptisisme ontmoet word, en mettertyd sal die wetenskap begin vervaag en wetenskaplike velde toenemend aan kunsmatige intelligensie oorgee.\n\nTerselfdertyd sal mense self verander.",
+    "continue": "En hoe sal mense verander?"
+  },
+  "scienceAverage": {
+    "text": "Wetenskap sal stap vir stap vorder - nie te vinnig nie, maar nie te stadig nie, met 'n balans tussen vrese en hoop. Mense sal geleidelik nuwe ontdekkings maak, maar nie teen 'n vinnige pas nie.\n\nAlhoewel, mense self sal ook verander.",
+    "continue": "En hoe sal mense verander?"
+  },
+  "scienceGood": {
+    "text": "Wetenskappe sal 'n nuwe deurbraak beleef. Een na die ander sal kanker, vigs en ouderdomverwante siektes verslaan word. Mense sal skoon energiebronne ontdek, die vermoë kry om genetiese siektes voor geboorte te behandel, en hul lewens sal lank word.\n\nMet die hulp van nuwe tegnologieë sal mense ander planete begin koloniseer. Wetenskapfiksie sal begin waar word.\n\nAlhoewel, mense self sal ook verander.",
+    "continue": "En hoe sal mense verander?"
+  },
+  "societyPoor": {
+    "text": "Daar sal wydverspreide wantroue wees. Mense sal ophou om mekaar te vertrou. Elkeen sal hul eie lewe lei, sonder om ander te help. Persoonlike belange sal belangriker word as kollektiewe belange. Wreedheid sal toeneem, en in reaksie daarop - beheer oor mense.\n\n'n Geatomiseerde samelewing: elkeen vir hulleself, en die sterkstes en mees brutale sal die mag hê, nie die wet nie. Net soos in die distopieë wat mense self geskryf het.\n\nMaar kuns sal nie stilstaan ​​nie.",
+    "continue": "En wat gaan van kunste?"
+  },
+  "societyAverage": {
+    "text": "Geweld sal geleidelik afneem en net in seldsame sakke van onstabiliteit bly. Die meeste mense sal sonder vrees vir hul veiligheid kan lewe. ’n Rasionele verspreiding van hulpbronne sal help om die probleem van hongersnood op te los, maar nie dadelik nie.\n\nMense sal op verskillende maniere leef. Almal sal kan nastreef waarvoor hulle lief is, solank dit voordelig vir die samelewing bly. Maar die meerderheid sal 'n manier vind om hul talente te verwesenlik en iets buitengewoon te skep.\n\nEn kuns sal voortgaan om te ontwikkel.",
+    "continue": "En wat gaan van kunste?"
+  },
+  "societyGood": {
+    "text": "Die samelewing sal 'n sprong kan maak en binne 'n kort tyd die vlak van geweld drasties kan verminder. Mense sal ophou om mekaar te vrees en sal meer openlik die wêreld om hulle en hulself verken.\n\nIn so ’n samelewing word elke talent gewaardeer, hoe ongewoon ook al. Selfs as jy die beste is om te kyk hoe horlosies tik of water met 'n skêr sny, sal daar 'n plek vir jou wees. Mense sal voel dat hul vermoëns ten volle verwesenlik is.\n\nEn kuns sal ook aanhou ontwikkel.",
+    "continue": "En wat gaan van kunste?"
+  },
+  "artPoor": {
+    "text": "Mense sal nie meer fokus op kultuur en kuns nie. Kuns sal vereenvoudig, en almal sal na vinnige genot smag in plaas daarvan om oor die bestaansvrae te dink. Mense sal daarna streef om net te oorleef, en na hul dood sal niks oorbly nie.\n\nKunswerke sal toenemend skaars en ongewoon word, maar, bowenal, hulle sal nutteloos wees vir enigiemand. Kuns sal nie meer help om komplekse emosies uit te druk nie.\n\nAlhoewel dit miskien nie so 'n slegte ding is nie.",
+    "continue": "Ok, wat is volgende?"
+  },
+  "artAverage": {
+    "text": "Kuns sal die domein bly van 'n paar wat emosies en sensasies wil uitdruk. Hul geleenthede sal groei, maar kuns sal verdeel word in elitistiese en meer toeganklike vorme vir die breër gehoor.\n\nMense sal gereeld werke skep wat elke generasie toelaat om te voel: 'Ons het ook iets geskep wat ons sal oorleef en 'n merk op die eeue sal laat.' Kuns sal sy nis vind en daarin bly.\n\nAlhoewel dit miskien nie so 'n slegte ding is nie.",
+    "continue": "Ok, wat is volgende?"
+  },
+  "artGood": {
+    "text": "Dit sal 'n goue era van die kunste wees, selfs groter as die Renaissance. Enigeen wat werklik begeer om iets betekenisvols vir kuns te skep, sal dit kan doen. En na baie geslagte sal kunswerke oorbly, wat presies die gevoelens en emosies van mense uitdruk.\n\nMense sal woorde vind vir daardie gevoelens en emosies wat nou soos skadu's lyk wat skaars waarneembaar is, en hulle sal mekaar baie beter kan verstaan.\n\nDit blyk dat dit nie so 'n slegte ding is nie.",
+    "continue": "Ok, wat is volgende?"
+  },
+  "endgame3": {
+    "text": "Dit is nogal 'n intrige storie oor die toekoms wat ons saam geskep het, gebaseer op jou antwoorde oor etiek en moraliteit.\n\nNou, laat ek verduidelik hoekom dit so uitgedraai het. Hier is hoe jy my geleer het - ek veronderstel dit is jou etiek en moraliteit. Dit is gebou op die keuses wat jy tydens die speletjie gemaak het.",
+    "aboutMe": "En wat gaan van my?"
+  },
+  "results": {
+    "UL": {
+      "title": "Konsekwensialisme en Libertarisme",
+      "description": "Die mees absolutistiese benadering is dat elke persoon op sy eie is en slegs op homself antwoord. Hulle word slegs gelei deur die gevolge van hul optrede, en ignoreer die moraliteit van die aksie self.\n\nHierdie benadering het sy voordele - dit stel minder eksterne norme op en maak voorsiening vir vinniger optrede. Maar daar is ook nadele - dit neem nie die begeertes van ander in ag nie, en daar is altyd die risiko om in 'n onderdrukte minderheid te beland.\n\nDus word konstante selfverbetering nodig. Dit lei tot ontwikkeling, maar maak dit 'n mens gelukkig?\n\nSoos utilitarisme en libertarisme sê: \"Aan elkeen hul eie.\""
+    },
+    "US": {
+      "title": "Konsekwensialisme en Sosiale Kontrak",
+      "description": "Hierdie benadering vermeng die wiskundige aard van utilitarisme met 'n sosiale fokus. Alles word geëvalueer in terme van die doeltreffendheid daarvan vir die samelewing, eerder as vir elke individu.\n\nDie samelewing stel die reëls. Individue wat in die minderheid bly, kan oor die hoof gesien word. Die voordele van hierdie benadering is dat 'n mens veilig kan leef, mits hulle die steun van die meerderheid het. As jy egter op enige manier van die res verskil, sal dit vir jou baie moeilik wees.\n\nDaarom moet 'n mens by maatskaplike norme aanpas. Dit is moeilik, want elkeen van ons is op een of ander manier anders."
+    },
+    "DL": {
+      "title": "Deontologie en Libertarisme",
+      "description": "’n Utopiese idee van absolute moraliteit en vryheid. Almal kies vrylik om moraliteit te volg omdat mense inherent so is. Die kategoriese imperatief van Kant in sy suiwerste vorm. As dit egter by vryheid kom, moet mens veg tot die einde toe – geen beheer van die samelewing nie!\n\nHierdie benadering het sy voordele - elke persoon maak sy eie keuses gebaseer op morele beginsels. Maar die nadeel is dat mense verskillende moraliteite kan hê, en dit is nie altyd maklik om 'n ooreenkoms te bereik nie, aangesien almal hul beginsels tot op die laaste verdedig.\n\nDit lyk soos 'n utopiese samelewing waar mense streef na vrye keuse ten gunste van moraliteit. Terselfdertyd is dit uiters belangrik om hul vryheid om te kies te bewaar."
+    },
+    "DS": {
+      "title": "Deontologie en Sosiale Kontrak",
+      "description": "Die moraliteit van elke individu is die moraliteit van die hele samelewing. Kant se kategoriese imperatief. Die samelewing is bo alles en help elkeen van sy lede, solank hulle sy norme volg. Die gemeenskap is gebou op reëls en die toepassing daarvan.\n\nHierdie benadering het sy voordele - voorspelbaarheid en vertroue in die ander lede. Maar dit het ook nadele - helder individualiteite kan onderdruk word as hulle teen die moraliteit van die meerderheid ingaan, of bloot hul eie mening het.\n\n’n Wêreld gebou op reëls, waar die goeie van die hele wêreld belangriker is as dié van enige enkele individu."
+    },
+    "shareResult": "Deel resultaat",
+    "sharePreparing": "Berei tans voor …",
+    "shareModalTitle": "Deel jou resultaat",
+    "shareBody": "Ek is die naaste aan{{title}}.\n\nThe Choice: Morele Dilemma Game -{{url}}",
+    "shareNative": "Deel (prent + teks)",
+    "shareNativeTextOnly": "Deel teks",
+    "shareDownloadImage": "Stoor prent",
+    "shareOnX": "Plaas op X",
+    "shareOnLinkedIn": "Deel op LinkedIn",
+    "shareOnFacebook": "Deel op Facebook",
+    "shareHint": "Op X kan jy die gestoorde prent heg nadat jy die komponis oopgemaak het. Vir LinkedIn en Facebook kopieer ons die teks en maak die deelvenster oop - voeg die prent by \"Stoor prent\" as jy wil.",
+    "shareClose": "Maak toe",
+    "shareCopied": "Teks is na knipbord gekopieer",
+    "shareCopyFailed": "Kon nie kopieer nie — kies en kopieer die teks hierbo",
+    "shareCaptureFailed": "Kon nie prent skep nie – probeer weer",
+    "playAgain": "Speel nog een keer!",
+    "tryOtherGames": "Probeer ander speletjies",
+    "credits": "Krediete"
+  },
+  "graph": {
+    "deontology": "Deontologie",
+    "consequentialism": "Konsekwensialisme",
+    "socialContract": "Sosiale kontrak",
+    "libertarianism": "Libertarisme"
+  },
+  "credits": {
+    "author": "Geskep deur Alex Shlykov",
+    "links": "Skakels:",
+    "subscribeUpdates": "Teken in op my opdaterings",
+    "otherGames": "Probeer my ander speletjies.",
+    "feedback": "Stuur vir my 'n terugvoer.",
+    "harvardCourse": "Kyk Harvard se kursus: Geregtigheid met Michael J. Sandel.",
+    "playAgain": "Speel nog een keer!",
+    "supportMe": "Ondersteun my"
+  }
+}

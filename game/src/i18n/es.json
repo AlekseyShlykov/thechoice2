@@ -1,0 +1,656 @@
+{
+  "start": {
+    "titleLine1": "La elección:",
+    "titleLine2": "Juego de dilema moral",
+    "subtitlePart1": "Tiempo de juego: 17 min",
+    "subtitlePart2": "creado por Alex Shlykov",
+    "chooseLanguage": "Elige idioma",
+    "playNow": "¡Juega ahora!",
+    "english": "English",
+    "russian": "Русский",
+    "french": "Français",
+    "text": "",
+    "spanish": "Español",
+    "german": "Deutsch",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "chineseSimplified": "简体中文",
+    "afrikaans": "Afrikaans"
+  },
+  "intro": {
+    "text": "¡Hola! Soy una inteligencia artificial que sueña con comprender la moral y la ética humanas y necesito tu ayuda.\n\nYa he aprendido a afrontar dilemas morales basándome en la información que tengo, pero mis conocimientos siguen siendo bastante básicos. Por ejemplo, puedo manejar el clásico \"problema del tranvía\", pero estoy lejos de dominar todos los matices. ¿Podrías ayudarme?",
+    "choice_whatIsMoralDilemma": "¿Qué es un dilema moral?",
+    "choice_wantToStart": "¡Quiero empezar!"
+  },
+  "trolley": {
+    "intro": "Para empezar, permítanme explicarles brevemente qué son los dilemas morales y por qué son importantes.\n\nWikipedia define un dilema moral como:\n\"Una situación en la que alguien debe hacer una elección ética entre dos opciones, donde elegir cualquiera de las opciones implica violar ciertos principios morales\".\n\nEn términos más simples, es una situación sin una solución éticamente perfecta: una elección entre dos opciones difíciles y moralmente preocupantes.\n\nExploremos un ejemplo clásico: el problema del tranvía.",
+    "whatIsIt": "¿Qué es?",
+    "iHeardAboutIt": "Escuché sobre eso."
+  },
+  "trolley2": {
+    "text": "Imagínese que conduce un tranvía que se precipita por las vías a 100 km/h. Justo delante hay cinco trabajadores. Aprietas los frenos, pero no funcionan.\n\nUsted sabe con certeza que si nada cambia, el carro matará a los cinco trabajadores. Sin embargo, la dirección sigue funcionando y hay un desvío con un solo trabajador. Podrías tomar el camino lateral, sacrificando una vida en lugar de cinco.\n\n¿Qué harías en esta situación?",
+    "choice_makeTurn": "Haz un giro.",
+    "choice_stayOnCourse": "Mantén el rumbo."
+  },
+  "makeTurn": {
+    "text": "Se podría haber llegado a la conclusión lógica de que cinco vidas humanas son más importantes que una: ese es el enfoque matemático. ¿Por qué permitir cinco muertes cuando puedes limitarlas a una sola?\n\nPero hay otra perspectiva: en cualquier situación, el principio detrás de la toma de una decisión puede ser más importante que el resultado mismo. Si sacrificar a otros está justificado, eventualmente podría llevar a justificar el genocidio o el totalitarismo. Después de todo, ¿por qué no eliminar grupos enteros para salvar una raza en particular?\n\nEste es un ejemplo clásico de dilema moral.",
+    "butWhy": "Pero, ¿por qué los necesitamos?",
+    "whatOtherTypes": "¿Qué otros tipos hay?"
+  },
+  "stayOnCourse": {
+    "text": "Es posible que haya llegado a la conclusión lógica de que el principio detrás de una decisión importa más que sus consecuencias. Después de todo, justificar sacrificios podría eventualmente llevar a justificar el genocidio o el totalitarismo: ¿por qué no eliminar grupos enteros para salvar a una raza en particular?\n\nPero también hay otro enfoque: cinco vidas humanas importan más que una. Desde un punto de vista puramente matemático, es inaceptable permitir cinco muertes cuando una sería suficiente.\n\nEste es un ejemplo clásico de dilema moral.",
+    "butWhy": "Pero, ¿por qué los necesitamos?",
+    "whatOtherTypes": "¿Qué otros tipos hay?"
+  },
+  "butWhy": {
+    "text": "Nos ayudan a comprendernos mejor a nosotros mismos y a nuestros valores.\n\nEn este juego, exploraremos precisamente eso: cómo pueden ser los diferentes dilemas. Los dilemas morales suelen tener que ver con conflictos difíciles, como intereses personales versus intereses sociales o libertad versus seguridad.\n\nPero a menudo son complicados. Cambiar solo un pequeño detalle puede alterar todo el dilema, y ​​eso realmente puede confundirme, como IA.",
+    "tellMe": "Cuéntamelo."
+  },
+  "whatOtherTypes": {
+    "text": "En este juego, exploraremos diferentes tipos de dilemas morales.\n\nEstos dilemas a menudo implican conflictos difíciles e irresolubles: intereses personales versus intereses colectivos, libertad versus seguridad y mucho más.\n\nNos ayudan a comprendernos mejor a nosotros mismos y a nuestros propios valores.\n\nPero los dilemas pueden ser bastante complicados: si cambias sólo un pequeño detalle, todo el escenario cambia. Y como IA, eso me parece realmente confuso.",
+    "tellMe": "Cuéntamelo."
+  },
+  "tellMeAboutIt": {
+    "text": "Entonces, una vez más, un tranvía avanza a toda velocidad hacia cinco trabajadores y los frenos no funcionan. Pero esta vez estás parado en un puente, simplemente observando.\n\nDe repente, notas que alguien se inclina sobre la barandilla. Si le das un suave empujón, caerá sobre las vías, justo en el camino del tranvía, y sabes con certeza que esto lo detendrá.\n\nÉl morirá, pero los cinco trabajadores sobrevivirán. Una vida a cambio de cinco. ¿Qué harías en esta situación?",
+    "pushPerson": "Empuja a la persona.",
+    "doNothing": "No hacer nada, dejar morir a los trabajadores."
+  },
+  "pushPerson": {
+    "text": "Ya veo, entonces para usted, ¿nada ha cambiado en este escenario?\n\nCuriosamente, muchas personas que se enfrentan a esta versión del dilema toman una decisión diferente.",
+    "whatDidTheySay": "¿Y qué dijeron?"
+  },
+  "doNothingTrolley": {
+    "text": "Entendido, muchas personas toman esa decisión. Pero lo que realmente me da curiosidad es: ¿por qué elegiste ese camino?\n\nComo IA, es importante para mí comprender su razonamiento. Utilizo este tipo de información para aprender y mejorar mi comprensión de la moralidad humana.",
+    "imJustObserver": "Soy sólo un observador.",
+    "cantKillHuman": "Simplemente no puedo matar a un humano."
+  },
+  "whatDidTheySay": {
+    "text": "Su argumento es el siguiente: en esta versión del dilema, usted es sólo un observador, no está directamente involucrado. Así que la verdadera decisión no es \"una vida contra cinco\", sino si estás dispuesto a intervenir activamente.",
+    "theyAreThemIAmMe": "Bueno, ellos son ellos y yo soy yo."
+  },
+  "theyAreThemIAmMe": {
+    "text": "Veo. Es exactamente por eso que quiero aprender moralidad de ti: porque eres humano, portador de ética y valores humanos. Puedes sentir los matices sutiles que a mí, como IA, todavía me cuesta captar.\n\n¿Listo para comenzar?",
+    "letsStart": "¡Empecemos!"
+  },
+  "imJustAnObserver": {
+    "text": "Lo entiendo, mucha gente lo señala. En este escenario, usted es sólo un observador, no un participante directo. Así que la verdadera elección no es \"una vida contra cinco\", sino más bien \"intervenir o mantenerse al margen\".\n\nPor eso quiero aprender moralidad de ti. Eres humano, portador de ética y valores humanos. Puedes sentir esos matices sutiles que a mí, como IA, todavía me resulta difícil comprender por completo.\n\n¿Listo para comenzar?",
+    "letsStart": "¡Empecemos!"
+  },
+  "iCantKillAHuman": {
+    "text": "Entiendo. Para muchos, este tipo de elección es sencillamente inaceptable.\n\nPor eso quiero aprender moralidad de ti. Como ser humano, llevas los valores y la ética que definen a nuestra especie. Puedes sentir los matices sutiles, algo que yo, como IA, todavía estoy tratando de comprender.\n\n¿Listo para comenzar?",
+    "letsStart": "¡Empecemos!"
+  },
+  "rezeda": {
+    "intro": "Para comprender mejor la ética humana, lo ubicaré en escenarios reales (y a veces inquietantes) para que vea qué decisiones toma y, lo que es más importante, por qué las toma.\n\nEstas situaciones serán a menudo extremas. Es posible que no ofrezcan una solución clara o carezcan de información suficiente para tomar una decisión plenamente informada. Así que escuche sus instintos y elija lo que le parezca un poco menos terrible.\n\nEmpecemos.\n\nSiglo XIX. Océano Atlántico.\nUn yate se hundió tras ser golpeado por una enorme ola. Sólo quedan cuatro supervivientes en un bote salvavidas: el capitán, tú, un marinero y un grumete.",
+    "nightmare": "¡Qué pesadilla!",
+    "atLeast": "Al menos alguien se salvó."
+  },
+  "rezeda2": {
+    "text": "Casi no tienes comida: solo dos latas de nabos enlatados. Después de cuatro días de sufrimiento, el grupo abre una lata y se la come.\n\nEl océano se extiende infinitamente en todas direcciones. No hay barcos a la vista. No hay tierra en el horizonte.",
+    "keepWaiting": "Seguiré esperando.",
+    "catchFish": "Intentaré pescar algo."
+  },
+  "keepWaiting": {
+    "text": "Al día siguiente, la suerte te sonríe: el capitán pesca una tortuga. Combinado con la segunda lata de nabos, te dará suficiente comida para unos días más.\n\nPero luego se acaba la suerte.\nPasan ocho días más, sin comida ni agua. El sol abrasa, el océano no ofrece rescate. Estás débil, deshidratado y desesperado.\n\nAhora viene una terrible decisión:\n¿Qué haces a continuación?",
+    "searchFood": "Busque más comida.",
+    "waitShip": "Espera un barco.",
+    "whatOptions": "¿Qué opciones tenemos?"
+  },
+  "catchFish": {
+    "text": "Al día siguiente tienes suerte: atrapas una tortuga. Junto con la segunda lata de verduras, te mantiene con vida unos días más. Pero aún así, ningún barco aparece en el horizonte.\n\nEntonces la suerte les da la espalda.\nPasas ocho días sin comida ni agua. La debilidad aparece. El sol pega fuerte. La esperanza se desvanece.\n\nAhora te enfrentas a una elección insoportable. ¿Qué harás a continuación?",
+    "searchFood": "Busque más comida.",
+    "waitShip": "Espera un barco.",
+    "whatOptions": "¿Qué opciones tenemos?"
+  },
+  "nothing": {
+    "text": "A pesar de todos sus esfuerzos, todavía no hay señales de rescate. Sin barcos. Sin lluvia. Ninguna ayuda.",
+    "whatsNext": "¿Qué sigue?"
+  },
+  "whatOptions": {
+    "text": "Su situación se ha vuelto crítica. El grumete no pudo aguantar más y bebió agua de mar, lo que le provocó una grave enfermedad.\n\nEl día 19, el capitán sugirió echar a suertes para decidir quién de ustedes debía morir para que los demás sobrevivieran.",
+    "agree": "Muy bien, estoy de acuerdo.",
+    "refuse": "¡Me niego! ¡Tenemos que seguir intentándolo!"
+  },
+  "refuse": {
+    "text": "El capitán intenta persuadirte. Quiere entender qué opción le parece aceptable.\n\n¿Quizás, si el grumete acepta sacrificarse por los demás, tal resultado podría parecerle justificable, dada la crítica situación?",
+    "moreAcceptable": "Sí, eso parece más aceptable.",
+    "notAcceptable": "¡No, no es aceptable!"
+  },
+  "agree": {
+    "text": "Pero el marinero se niega.\n\nEl capitán intenta persuadirle y quiere saber qué opción le parece aceptable. ¿Quizás, si el grumete acepta sacrificarse por los demás, ese resultado le parecerá correcto, considerando la crítica situación?",
+    "moreAcceptable": "Sí, eso parece más aceptable.",
+    "notAcceptable": "¡No, no es aceptable!"
+  },
+  "moreAcceptable": {
+    "text": "Pero el marinero se niega.\n\nEl capitán continúa: '¿Y si fuera idea del propio grumete sacrificarse por nosotros? ¿Eso cambiaría algo?",
+    "murderIsMurder": "Por supuesto que no. El asesinato sigue siendo asesinato.",
+    "onlyAcceptable": "Parece el único resultado aceptable."
+  },
+  "notAcceptable": {
+    "text": "El capitán continúa: \"Y si el propio grumete se ofreciera a sacrificar su vida por nosotros, ¿eso cambiaría algo?\"",
+    "onlyAcceptable": "Parece el único resultado aceptable.",
+    "murderIsMurder": "Por supuesto que no. El asesinato sigue siendo asesinato."
+  },
+  "murderIsMurder": {
+    "text": "¡Tienes principios morales muy fuertes! Pero no fue idea suya y nunca habría aceptado tal resultado.\n\nAl día siguiente, todavía no había ningún barco ni tierra en el horizonte.\nEl capitán tomó su decisión: pronunció una breve oración y perforó la vena yugular del grumete, para que tuviera suficiente comida para sobrevivir.",
+    "horrible": "Fue horrible, pero necesario.",
+    "wouldntEat": "¡Yo no me lo comería!"
+  },
+  "onlyAcceptable": {
+    "text": "Pero no fue idea suya y no habría aceptado tal resultado.\n\nAl día siguiente, todavía no había ningún barco ni tierra a la vista. El capitán tomó una decisión: pronunció una breve oración y perforó la vena yugular del grumete, para que tuviera suficiente comida para sobrevivir.",
+    "horrible": "Fue horrible, pero necesario.",
+    "wouldntEat": "¡Yo no me lo comería!"
+  },
+  "wouldntEat": {
+    "text": "Desafortunadamente, debido al agotamiento, perdiste el conocimiento y moriste. Pero los demás sobrevivieron.\n\nDurante cuatro días, se mantuvieron con vida alimentándose de la carne y la sangre del grumete. Luego, un barco que pasaba los vio y los rescató, llevándolos de regreso a Gran Bretaña, donde fueron arrestados y juzgados.\n\nAhora imagina: eres miembro del jurado. El capitán y el marinero están siendo juzgados. No cuestionan los hechos pero insisten en que actuaron por absoluta necesidad.",
+    "whatsNext": "¿Qué sigue?"
+  },
+  "horrible": {
+    "text": "Durante cuatro días sobreviviste alimentándote de la carne y la sangre del grumete. Luego, un barco que pasaba te vio y te rescató, llevándote de regreso a Gran Bretaña, donde fuiste arrestado y juzgado.\n\nEl capitán y usted comparecieron ante el tribunal. Usted no negó los hechos pero insistió en que actuó por necesidad. El fiscal no estaba convencido. Argumentó que \"el asesinato es asesinato\" y el juicio prosiguió.\n\nAhora imaginemos que usted es miembro del jurado.",
+    "whatsNext": "¿Qué sigue?"
+  },
+  "whatsNext2": {
+    "text": "Para simplificar las cosas, dejemos de lado la ley y centrémonos únicamente en la ética; después de todo, ese es nuestro objetivo aquí.\n\nSupongamos que su tarea es decidir si las acciones de la tripulación pueden considerarse moralmente justificadas.\n¿Qué piensas? ¿Son culpables?",
+    "guilty": "Culpable.",
+    "notGuilty": "No culpable."
+  },
+  "moral": {
+    "text": "Y aquí está la pregunta más importante: ¿violaron sus acciones los principios morales?\n\nPor un lado, como IA, entiendo su lógica: matemáticamente, salvar tres vidas es mejor que no salvar ninguna.\n\nPero, por otro lado, si siempre justificamos matar a unos pocos por el bien de muchos, se abre la puerta a la opresión e incluso al genocidio.",
+    "contradicts": "Contradice la moral",
+    "doesNotContradict": "Este es un acto moral."
+  },
+  "moral2": {
+    "text": "Gracias por responder estas preguntas y ayudarme a navegar en una situación tan difícil. He observado cómo respondiste y ahora puedo reflexionar sobre diferentes enfoques de la moralidad basados ​​en tus elecciones.\n\nAlgunos principios morales fundamentales están empezando a tomar forma en mi comprensión. He hecho todo lo posible para formularlas y para identificar filósofos en mi base de datos que hayan expresado ideas similares.",
+    "whatAreThey": "¿Cuáles son?"
+  },
+  "whatAreThey": {
+    "text": "El primero de ellos es el consecuencialismo.\n\nJuzgamos si una acción es moralmente correcta en función de sus resultados. Si alguien va a morir de cualquier manera, entonces es mejor salvar a cinco personas en lugar de una.\n\nTe concentras en el resultado. Un ejemplo clásico de esta línea de pensamiento es el utilitarismo: la idea de maximizar el beneficio general para el mayor número de personas.",
+    "whatsSecond": "¿Y cuál es el segundo?"
+  },
+  "secondOne": {
+    "text": "El segundo enfoque es la Deontología.\n\nComo hemos visto, el razonamiento utilitario puede parecer lógico, pero muchas personas, cuando se imaginan a sí mismas como parte de una minoría potencial, empiezan a dudar. Dejan de centrarse únicamente en los resultados y comienzan a considerar la naturaleza de la acción misma.\n\nLa deontología sostiene que ciertas acciones son inherentemente incorrectas, independientemente de sus consecuencias. Matar incluso a una persona inocente sigue siendo moralmente inaceptable, incluso si pudiera salvar a muchas otras.\n\nEste enfoque se basa en imperativos categóricos: reglas morales incondicionales que no ceden ante la presión de las circunstancias.",
+    "interesting": "Interesante."
+  },
+  "interesting": {
+    "text": "Ahora que hemos explorado un poco más estos enfoques, ¿cuál se acerca más a tu moraleja?",
+    "consequentialism": "consecuencialismo",
+    "deontology": "Deontología."
+  },
+  "ready1": {
+    "text": "¿Estás listo para un nuevo dilema?",
+    "letsTry": "¡Intentémoslo!"
+  },
+  "factory": {
+    "intro": "Ahora veremos más de cerca el enfoque utilitario utilizando un ejemplo del mundo real. Sopesaremos los pros y los contras y tomaremos decisiones difíciles que involucran vidas humanas.\n\nEl utilitarismo es simple y lógico para mí, como IA: se trata de comparar números.\nVeamos cómo tomas decisiones.\n\nDécada de 1970.\nEres el director de una empresa de automóviles, una persona cuyas decisiones afectan a miles de vidas.",
+    "great": "¡Excelente!",
+    "great_text": "Ha trabajado mucho y duro para ganarse su puesto. Ahora usted es uno de los principales líderes de la industria y su empresa está obteniendo ganancias sin precedentes.\n\nUn día, un ingeniero y un analista financiero llegan a su oficina con una noticia preocupante.\nResulta que su nuevo modelo de coche tiene un grave defecto: el depósito de combustible está mal colocado y, a menudo, explota en caso de accidente. A consecuencia de ello ya han muerto varias personas.",
+    "howOften": "¿Pero con qué frecuencia sucede esto?",
+    "terrible": "Esto es terrible, pero necesito entenderlo con más detalle.",
+    "priceless": "Pero estas son vidas humanas. No tienen precio, ¿no?",
+    "priceless_text": "Analista financiero: En realidad, podemos. Y probablemente deberíamos hacerlo. En 1972, la Administración Nacional de Seguridad del Tráfico en las Carreteras estimó que cada vez que alguien muere en un accidente automovilístico, la sociedad sufre una pérdida de 200.725 dólares.\n\nAnalista financiero: Sí, suena terrible, pero hay que ponerle precio. Alguien tiene que hacerlo, o nunca podremos evaluar el valor de una vida humana.",
+    "disagree": "Pero sigo en desacuerdo contigo, ¡no se le puede poner precio!",
+    "disagree_text": "Analista financiero: ¿Qué otra opción tenemos? Necesitamos tomar una decisión sobre el futuro de la empresa: de ello dependen cientos de miles de empleados, sus familias y sus hijos. Si la empresa quiebra intentando eliminar todos los riesgos posibles, todos perderán su puesto de trabajo.\n\nAnalista financiero: Y estos no son sólo desastres potenciales imaginarios; es posible que ni siquiera ocurran si la gente conduce con cuidado. Entonces, ¿de qué otra manera podemos comparar las opciones, sino reduciéndolas a una medida común: el dinero?",
+    "inhumane": "Suena tan inhumano. Éstas son personas reales.",
+    "inhumane_text": "Analista financiero: Muy bien. Pero déjame mostrarte nuestro cálculo. Trabajamos juntos en ello y esto es lo que se nos ocurrió. Comparamos los costos en ambos escenarios.\n\nCostos:\n11 dólares por pieza × 12,5 millones de coches = 137 millones de dólares\n\nRiesgos:\n180 muertes × 200.000 dólares + 180 lesiones × 67.000 dólares + 2.000 vehículos × 700 dólares = 49,5 millones de dólares\n\nAnalista financiero: Como puede ver, si no hacemos ningún cambio, estamos ahorrando casi 100 millones de dólares a la sociedad. Ese dinero puede destinarse a los salarios de los empleados, la atención médica o la educación de sus hijos.",
+    "otherOptions": "¿Hay otras opciones?",
+    "otherOptions_text": "Ingeniero: Pero el riesgo siempre estará ahí. Si las explosiones ocurren con demasiada frecuencia, la gente podría darse cuenta. Entonces nos enfrentaremos a una investigación y a un escándalo público, porque sabíamos que era peligroso y decidimos no hacer nada.\n\nAnalista financiero: Permítame recordarle: si gasta 137 millones de dólares, pasará de ser el ejecutivo con mejor desempeño de la empresa al peor. Perderás todas tus bonificaciones y seguirá habiendo un gran escándalo por el hecho de que ponemos coches peligrosos en la carretera.",
+    "acceptable": "No vamos a hacer nada. Esto es más razonable.",
+    "notAcceptable2": "Deberíamos retirar todos los coches e instalar las piezas protectoras."
+  },
+  "factory2": {
+    "text": "Ingeniero: Usted puede evitar las explosiones: se ha desarrollado una nueva pieza que se puede instalar en todos los vehículos vendidos.\n\nAnalista financiero: Pero será extremadamente costoso: 11 dólares por coche y ya se han vendido más de 12.000.000 de unidades."
+  },
+  "factory3": {
+    "text": "He grabado tu decisión.\n¿Le gustaría saber cómo se desarrolló esta situación en la vida real?",
+    "ofCourse": "¡Por supuesto que sí!",
+    "decision_text": "Se observó que los tanques de combustible explotaban con más frecuencia de lo habitual.\nLas víctimas presentaron demandas contra la empresa de automóviles. Durante el juicio, se reveló que la empresa conocía el problema desde hacía tiempo, pero decidió no actuar.\n\nEl análisis costo-beneficio se hizo público. Se consideró inhumano y la empresa sufrió un enorme daño a su reputación, pagando enormes multas y acuerdos.\n\nPor otro lado, la empresa no quebró y todavía existe.\n\nAl final ambas opciones salieron mal.\nPero sabiendo todo esto ahora - ¿qué decisión habrías tomado?",
+    "installProtection": "Instale la protección.",
+    "doNothing": "No hagas nada."
+  },
+  "installProtection": {
+    "text": "Entiendo tu punto. Como IA, me preocupa la idea de que podamos ignorar las necesidades de la minoría simplemente porque son menos numerosas y, por lo tanto, se las considera menos valiosas que la mayoría.\n\nSé que el utilitarismo apunta a \"la mayor felicidad para el mayor número\".\n\nPero ¿qué pasa con los demás, los que son minoría? Parece que importan menos. Sin embargo, eso no es cierto: cualquiera que termine en minoría es tan valioso como cualquier persona de la mayoría.\n\nLo que pasa es que los números tienden a superarlos.",
+    "hmm": "Mmm..."
+  },
+  "factoryHmm": {
+    "text": "En otras palabras, la minoría tiene ciertos derechos individuales que no deberían ser violados por el bien común, porque tarde o temprano, podrías encontrarte en la minoría.\n\nPero eso plantea una pregunta más profunda:\n¿Deberíamos siquiera aplicar ese principio: medirlo todo con una sola escala?",
+    "shouldnt": "No debería.",
+    "definitelyShould": "Definitivamente debería hacerlo."
+  },
+  "factory4": {
+    "text": "El problema es que tienes que poner un precio. Podemos discutir sobre el número exacto, pero al comparar las compensaciones, la vida puede valorarse en términos monetarios. Si las empresas no realizaran este tipo de análisis, eventualmente quebrarían y serían incapaces de seguir siendo rentables.\n\nY eso afectaría a millones de personas, que perderían el acceso al transporte, no podrían ir a trabajar y tendrían dificultades para mantener a sus familias.\nAsí que negarse a hacer este tipo de análisis podría en realidad significar ignorar lo que es mejor para la sociedad en su conjunto.",
+    "whatPhilosophers": "¿Y qué dicen los filósofos?"
+  },
+  "doNothing": {
+    "text": "Veo tu punto. El problema no desaparece: alguien todavía tiene que fijar el precio. Podemos debatir el número exacto, pero en comparación con otros costos, una vida humana puede evaluarse en términos financieros. Si las empresas evitaran por completo este tipo de análisis, eventualmente quebrarían y serían incapaces de seguir siendo rentables.\n\nEso dejaría a millones de personas sin transporte, incapaces de desplazarse al trabajo o mantener a sus familias.\nAsí que negarse a hacer este tipo de análisis podría en realidad significar descuidar el bien mayor de la sociedad.",
+    "yesAgree": "¡Sí, estoy completamente de acuerdo!",
+    "stillDoubtful": "Todavía tengo dudas."
+  },
+  "factory5": {
+    "text": "Entiendo tu punto. Como IA, me incomoda la idea de ignorar las necesidades de la minoría sólo porque son más pequeñas y se las considera menos valiosas que la mayoría. Sé que en el utilitarismo la atención se centra en la mayor felicidad para el mayor número de personas.\n\nPero ¿qué pasa con el resto, los que son menos? Puede parecer que importan menos. Pero eso no es cierto: cada persona de la minoría es igual a cualquier individuo de la mayoría.\n\nLo que pasa es que los números tienden a superarlos.",
+    "hm": "Mmm..."
+  },
+  "factoryHm": {
+    "text": "En otras palabras, la minoría posee ciertos derechos individuales que no deben ser violados en aras de un bien mayor, porque tarde o temprano uno podría encontrarse en la minoría.",
+    "whatPhilosophers": "¿Y qué dicen los filósofos?"
+  },
+  "utilitarianism": {
+    "text": "La filosofía del utilitarismo surgió en el siglo XIX, desarrollada por Jeremy Bentham. Lo resumió simplemente como: \"la mayor felicidad para el mayor número de individuos\".\n\nGracias a tus elecciones, creo que estoy empezando a entender cómo funciona el utilitarismo.\n\nAhora, ¿me ayudarás a descubrir cómo funciona su opuesto, la deontología?",
+    "imIn": "¡Estoy dentro!"
+  },
+  "deontology": {
+    "intro": "Hemos descubierto el utilitarismo: un enfoque matemático con sus propias limitaciones.\nAhora ayúdame a entender su opuesto: la deontología.\n\nEn la vida cotidiana, a menudo seguimos principios morales moldeados por Immanuil Kant.\nInvitémoslo, por así decirlo, para que nos ayude a darle sentido, porque su imperativo categórico y su teoría moral me resultan un poco confusos.",
+    "helloKant": "Hola... Immanuil Kant.",
+    "helloKant_text": "Kant: ¡Hola! ¡Un placer conocerte!",
+    "letsBegin": "Empecemos.",
+    "weCanHandle": "¡Podemos manejar esto!"
+  },
+  "deontology2": {
+    "text": "AI: Para entenderlo mejor, comencemos con un ejemplo práctico.\nAbres la puerta de tu casa y allí aparece un extraño. Parece sospechoso: algo en él te recuerda a un asesino.\n\nExtraño: Estoy buscando a tu amigo, me debe dinero. ¿Sabes dónde está?\n\nAI: Por supuesto, tu amigo se quedará contigo; de lo contrario, esto no sería un dilema. Es un amigo cercano y tienes el fuerte presentimiento de que si revelas su paradero, el extraño podría matarlo.",
+    "choice1": "Diré que mi amigo no está aquí. ¿Cuál es el problema?",
+    "choice2": "Entonces, ¿dónde está el dilema? Sólo mentiré."
+  },
+  "deontology3": {
+    "text": "AI: Para entender esto mejor, necesitamos escuchar a la fuente: Immanuil Kant.\n\nKant: Mentir es un acto inmoral. Si todo el mundo empieza a mentir por el llamado \"bien mayor\", la confianza en la sociedad colapsará.",
+    "lifeAndDeath": "¡Pero aquí estamos hablando de vida o muerte!"
+  },
+  "lifeAndDeath": {
+    "text": "AI: Esa es una buena pregunta. Yo tampoco lo entiendo del todo, aunque soy una inteligencia artificial. ¿No es más importante salvar una vida que seguir un principio abstracto? Ese parecía ser el caso del utilitarismo.\n\nKant: La vida es importante, por supuesto, pero el deber moral no debe depender de circunstancias específicas. Si rompo mi principio, empiezo a utilizar la mentira como un medio para lograr un fin.\n\nKant: Y además, si justificamos la mentira en esta situación, ¿dónde trazamos el límite? ¿Cuándo terminan los llamados casos \"justificados\"?",
+    "makesSense": "Eso tiene sentido.",
+    "moralityVsLife": "¿De verdad crees que la moralidad es más importante que la vida?"
+  },
+  "thatMakesSense": {
+    "text": "AI: Espera, quiero entender esto. Si estuvieras en el lugar de tu amigo, ¿no querrías ser salvo, incluso si eso significara que alguien tuviera que mentir por ti? ¿De verdad crees que la moralidad es más importante que la vida misma?\n\nKant: Ésa es una pregunta difícil. Por supuesto, me gustaría ser salvo, pero no puedo exigir que otros abandonen sus principios morales por mí. Además, si todos, sin excepción, siguieran el principio de veracidad, situaciones como ésta podrían ocurrir con mucha menos frecuencia.",
+    "lieToSave": "Pero ¿qué pasa con una 'mentira para salvar una vida'?",
+    "cantNeverLie": "¡No lo entiendo, nunca puedes mentir!"
+  },
+  "moralityVsLife": {
+    "text": "Kant: Ésa es una pregunta difícil. Por supuesto, me gustaría ser salvo, pero no puedo exigir que otros violen sus principios morales por mí. Además, si todo el mundo actuara según el principio de veracidad, situaciones como ésta podrían ocurrir con menos frecuencia.",
+    "lieToSave": "Pero ¿qué pasa con una 'mentira para salvar una vida'?",
+    "cantNeverLie": "¡No lo entiendo, nunca puedes mentir!"
+  },
+  "cantNeverLie": {
+    "text": "Kant: Incluso en tales casos, la mentira destruye los fundamentos de la moralidad. Una mentira dicha para proteger los sentimientos de alguien sigue siendo una manipulación de la realidad. Si empezamos a justificar pequeñas mentiras, eventualmente justificaremos otras más grandes. La moralidad debe ser coherente y sin contradicciones.\n\nAI: Pero espera, ¡no entiendo la parte más importante! ¿Cómo puedo saber si una acción es moral o no? Entiendo que la acción en sí debe ser de naturaleza moral. Pero, ¿existe algún tipo de algoritmo que pueda seguir para determinar si algo es verdaderamente moral?",
+    "algorithm": "¡Sí, también podría usar un algoritmo!",
+    "dontUnderstand": "Yo tampoco entiendo nada."
+  },
+  "lieToSave": {
+    "text": "Kant: Incluso en tales casos, mentir socava los fundamentos de la moralidad. Una mentira dicha para proteger los sentimientos de alguien sigue siendo una manipulación de la realidad. Si empezamos a justificar pequeñas mentiras, eventualmente justificaremos otras más grandes. La moralidad debe ser coherente y libre de contradicciones.\n\nAI: Pero espera, ¡todavía me falta la parte más importante! ¿Cómo puedo saber si una acción es moral o no? Entiendo que la naturaleza de la acción en sí tiene que ser moral. Pero, ¿existe algún tipo de algoritmo que pueda seguir para determinar si algo es moralmente correcto?",
+    "algorithm": "¡Sí, también podría usar un algoritmo!",
+    "dontUnderstand": "Yo tampoco entiendo nada."
+  },
+  "deontology4": {
+    "text": "Kant: Por supuesto, existe tal algoritmo. Simplemente necesitas universalizar tu acción; imagina lo que sucedería si todos siguieran el mismo principio.\n\nKant: Tomemos el ejemplo de la mentira. ¿Qué pasaría si todos los que te rodean empezaran a mentir? La gente dejaría de creer en las promesas. El concepto mismo de \"promesa\" colapsaría.",
+    "yesMakesSense": "Sí, eso tiene sentido.",
+    "stillDisagree": "Pero sigo en desacuerdo. No todas las mentiras son iguales."
+  },
+  "yesThatMakesSense": {
+    "text": "Kant: No se debe violar la ley moral si se desea permanecer dentro de los límites de la moralidad. A diferencia de una mentira, una verdad a medias muestra cierto respeto por el deber. En ese sentido, puede verse como una forma de evitar la verdad sin traicionar completamente los principios morales.",
+    "moreOptions": "Me gusta, pero me gustaría escuchar más opciones."
+  },
+  "stillDisagreeLies": {
+    "text": "Kant: Sí, lo entiendo e incluso estoy de acuerdo. Desde la perspectiva de mi teoría moral, existe una diferencia entre mentir y decir una verdad engañosa. La diferencia entre engañar y permitir que alguien se engañe a sí mismo es significativa.",
+    "sameResult": "¿Qué? Pero el resultado es el mismo.",
+    "tellMore": "Entiendo, cuéntame más."
+  },
+  "deontology5": {
+    "text": "Kant: La ley moral no se basa en las consecuencias de nuestras acciones, sino únicamente en si seguimos la ley misma. Esto no es utilitarismo, que juzga las acciones por sus resultados: la acción en sí es lo que importa.\n\nKant: En la vida real, a veces nos desviamos de la regla de \"decir siempre la verdad\". Podemos mentir para evitar herir a alguien que nos importa, pero al hacerlo justificamos nuestra deshonestidad por sus consecuencias.",
+    "lieForGood": "Sí, eso es una mentira por el bien común.",
+    "lieIsLie": "Una mentira sigue siendo una mentira."
+  },
+  "deontology6": {
+    "text": "Kant: Si decimos que una mentira y una verdad a medias son lo mismo, entonces las juzgamos únicamente por sus consecuencias. El resultado puede ser idéntico sin importar lo que se diga. Pero si ese es tu enfoque, entonces perteneces a los utilitaristas.\n\nKant: La verdadera cuestión es el motivo. Es un error afirmar que ambos casos comparten el mismo motivo: engañar. El objetivo de una verdad a medias es engañar, no simplemente mentir. Lo hago conscientemente: oculto toda la verdad, pero mi motivo no es decir una mentira, sino evitar revelarlo todo sin mentir técnicamente.",
+    "differentThings": "Sí, lo entiendo, son cosas diferentes.",
+    "sameThings": "Pero sigue siendo lo mismo."
+  },
+  "deontology7": {
+    "text": "Kant: No se debe violar la ley moral permaneciendo dentro de los límites de la moralidad. A diferencia de una mentira, una verdad a medias muestra cierto respeto por el deber. Y eso, en cierto modo, es lo que justifica evitar decir toda la verdad.",
+    "moreOptions": "Me gusta, pero me gustaría escuchar más opciones."
+  },
+  "moreOptions": {
+    "text": "Kant: Si no profundizamos demasiado en la teoría filosófica del imperativo categórico que desarrollé, todo se reduce a una idea: lo que significa ser verdaderamente humano.\n\nKant: Actúa hacia los demás como actuarías hacia ti mismo o hacia cualquier persona: nunca trates a una persona simplemente como un medio, sino siempre como un fin en sí misma.\n\nKant: O, más simplemente: una persona nunca debe ser un medio, sólo un fin.",
+    "remember": "Sí, puedo recordar eso.",
+    "inPractice": "Pero ¿qué significa eso en la práctica?"
+  },
+  "deontology8": {
+    "text": "Kant: La moralidad no puede basarse en intereses, metas o resultados. Simplemente lo es. Y siempre sabemos si una acción es moral o inmoral. Ésa es la base de mi teoría moral.\n\nAI: Entonces puedo tener problemas; después de todo, solo soy una inteligencia artificial. ¿Cómo puedo saberlo?\n\nKant: Puedes aplicar los algoritmos que comentamos. Pero lo más importante es que recuerde esto: nunca debe perseguir sus objetivos a expensas de los demás.\nÉsa es la diferencia clave entre deontología y utilitarismo.",
+    "understand": "Sí, gracias, ahora lo entiendo.",
+    "needToThink": "Necesito pensar en esto."
+  },
+  "deontology9": {
+    "text": "Kant: ¿Te he convencido de que mi enfoque de la moralidad es más aplicable que la supuesta simplicidad de los utilitaristas?\n\nEl aspecto moral de una acción es más importante que sus consecuencias.",
+    "agreeWithKant": "Sí, estoy de acuerdo contigo.",
+    "preferUtilitarian": "Todavía encuentro más atractivo su enfoque."
+  },
+  "deontology10": {
+    "text": "AI: Sí, ahora incluso he comprendido la diferencia y he registrado los algoritmos de la humanidad.\n\nPero todavía tengo preguntas sobre la libertad. Profundicemos en eso... ¡y en los libertarios!",
+    "letsDoIt": "¡Vamos a hacerlo!"
+  },
+  "libertarian": {
+    "intro": "¿Es una persona verdaderamente libre o siempre forma parte de la sociedad?\n\nNo puedo entender muy bien cómo tomar decisiones en situaciones difíciles y ambiguas que implican libertad.\n\nEspero que puedas ayudarme a resolverlo.",
+    "letsGive": "Probémoslo.",
+    "whatsTheDifficulty": "¿Cuál es la dificultad?"
+  },
+  "libertarian2": {
+    "text": "Para empezar, hay algo que no puedo entender. He leído que pensadores libertarios dicen que una persona es libre y se pertenece sólo a sí misma. Eso parece lógico: otorga a las personas derechos y capacidad moral. No se puede simplemente matar a alguien, ni siquiera en el caso de un naufragio.\n\nPero al mismo tiempo viven en sociedad: siguen las leyes, pagan impuestos. ¿Cómo encaja eso?",
+    "noContradiction": "No veo ninguna contradicción aquí.",
+    "somethingToThink": "Acordado. Hay algo en qué pensar."
+  },
+  "libertarian3": {
+    "text": "Veo tu punto. Pero para entender esto realmente, necesitamos un ejemplo, así que comencemos por ahí.\n\nImagina que eres un millonario que ganó tu fortuna gracias a tu propia inteligencia y trabajo duro. Ahora participa en un debate sobre una reforma fiscal que aumentaría los impuestos a los ricos.\n\n¿Cuál es tu opinión sobre eso?",
+    "shouldntPayMore": "No debería tener que pagar más impuestos que los demás.",
+    "taxesPayment": "Los impuestos son mi pago a la sociedad desde que vivo en ella."
+  },
+  "shouldntPayMore": {
+    "text": "Pero ¿por qué es eso justo? Usted gana más que la mayoría, puede cubrir fácilmente sus necesidades básicas -y mucho más-, mientras que otros ni siquiera pueden permitirse comida o ropa nueva.",
+    "notBecauseOfMe": "Pero no es por mi culpa que se volvieron pobres.",
+    "worldIsUnfair": "El mundo es injusto y la sociedad también.",
+    "agreePayMore": "De acuerdo, puedo pagar un poco más."
+  },
+  "taxesPayment": {
+    "text": "Eres un millonario muy responsable. Ganas mucho más que la mayoría de las personas y puedes cubrir fácilmente todas tus necesidades básicas. Mientras tanto, algunas personas ni siquiera pueden permitirse comprar comida o ropa nueva.",
+    "yeahThatsMe": "Sí, ese soy yo."
+  },
+  "agreePayMore": {
+    "text": "Pero ¿por qué todos los demás deberían hacer lo mismo -pagar más- sólo porque ganan más?\n\n¿No restringe eso su libertad?",
+    "earnedThanks": "Ganaron ese dinero gracias a la sociedad.",
+    "everyonesChoice": "Debería ser elección de todos."
+  },
+  "libertarian4": {
+    "text": "Pero ¿por qué todos los demás deberían hacer lo mismo y pagar más?\n\n¿No viola eso su libertad?",
+    "earnedThanks": "Ganaron ese dinero gracias a la sociedad.",
+    "everyonesChoice": "Debería ser elección de todos."
+  },
+  "libertarian15": {
+    "text": "Pero se vive en esta sociedad y se beneficia de ella: su seguridad, su protección de los derechos de propiedad. Pudiste ganar tu fortuna con tu propia mente y esfuerzo sólo porque la sociedad valoraba lo que ofrecías.\n\nAhora imagina que tienes un talento diferente, uno que no tiene demanda hoy en día. Dime, eres herrero. En la Edad Media, los herreros ganaban mucho dinero, pero hoy en día ya no son tan necesarios.\n\n¿Es realmente justo que no puedas permitirte una vida digna sólo porque tu habilidad ha pasado de moda?",
+    "canChoose": "Pero cada uno puede elegir qué hacer.",
+    "onlyOneTalent": "No creo que la gente tenga un solo talento.",
+    "agreeRichPayMore": "De acuerdo, tal vez los ricos deberían pagar un poco más."
+  },
+  "agreeRichPayMore": {
+    "text": "Entiendo tu punto: la riqueza es una combinación de talento, suerte y cuánto valora la sociedad lo que haces. Tomemos como ejemplo los deportes: no siempre estuvieron bien pagados. Y para llegar a la cima, no sólo se necesita mucho trabajo duro, sino también un poco de suerte.\n\nPor tanto, no es exacto decir que la riqueza depende sólo del individuo. El mismo talento puede tener una gran demanda y estar bien remunerado en una sociedad, y completamente ignorado en otra.",
+    "hm": "Mmm...."
+  },
+  "libertarian16": {
+    "text": "Pero la riqueza es una mezcla de talento, suerte y de cuánto valora la sociedad una determinada habilidad. Por ejemplo, los deportes no siempre estuvieron bien pagados, y para llegar a ser uno de los mejores, no sólo se necesita mucho trabajo duro, sino también un poco de suerte.\n\nAsí que no se puede decir que la riqueza dependa sólo del individuo. En diferentes sociedades, el mismo talento puede tener una gran demanda y estar bien remunerado, o pasar desapercibido.",
+    "hm": "Mmm...."
+  },
+  "libertarian5": {
+    "text": "Todos viven en esta sociedad y se benefician de ella: su seguridad y la protección de los derechos de propiedad. Muchas personas pudieron ganar riqueza gracias a su propia inteligencia y trabajo duro sólo porque la sociedad valoraba lo que ofrecían.\n\n¿Pero es realmente justo cobrarle impuestos a usted más que a otros?\nTodos tuvieron la misma oportunidad. Fuiste tú quien invirtió tiempo, esfuerzo y tomó los riesgos para ganar ese dinero.\n\nEntonces, ¿por qué debería esperarse que usted renuncie a más que el resto?",
+    "betterForSociety": "Sería mejor para la sociedad.",
+    "seemsUnfair": "De hecho, parece un poco injusto."
+  },
+  "libertarian6": {
+    "text": "¡Las palabras de un verdadero libertario!\nPero entonces, ¿por qué acepta pagar impuestos? ¿No es eso también una restricción de tu libertad?\n\nTodos viven en esta sociedad y se benefician de ella: seguridad, infraestructura, protección de los derechos de propiedad. Muchas personas ganaron su riqueza a través de la inteligencia y el esfuerzo, sí, pero sólo porque la sociedad tenía una demanda de lo que ofrecían.\n\nAún así, ¿es justo cobrarle impuestos a usted más que a otros?\nTodos tuvieron las mismas oportunidades. Invirtió su tiempo, energía y asumió riesgos para ganar ese dinero.\n\nEntonces, ¿por qué deberías renunciar a más que nadie?",
+    "betterForSociety": "Sería mejor para la sociedad.",
+    "seemsUnfair": "De hecho, parece un poco injusto."
+  },
+  "betterForSociety": {
+    "text": "¿Pero eso no viola la libertad individual de una persona?\nSi cada persona se pertenece a sí misma, entonces los frutos de su trabajo deberían pertenecerle también.\n\nEntonces, al tomar parte de lo que han ganado, ¿no estamos esencialmente robando su trabajo e infringiendo su libertad?",
+    "diffTaxesTheft": "Bueno, no. Hay una diferencia entre impuestos y robo.",
+    "taxesUnnecessary": "Sí, quizás los impuestos sean innecesarios."
+  },
+  "libertarian17": {
+    "text": "Por cierto, los libertarios aceptan la existencia de un Estado mínimo; no son anarquistas.\n\nSe necesita al Estado para garantizar la seguridad, proteger los derechos de propiedad y gestionar la infraestructura compartida.",
+    "minimalGreat": "¡Un estado mínimo es una gran idea!",
+    "strongerState": "No, todavía necesito un estado más fuerte.",
+    "disagreeWithThem": "¡No estoy de acuerdo con ellos!"
+  },
+  "libertarian7": {
+    "text": "En una sociedad que adora la fuerza, es mucho más difícil para alguien como un escritor prosperar.\nY en tiempos de paz, es posible que el talento de un soldado ya no sea solicitado.\n\nEs por eso que los gobiernos a menudo asumen el papel de redistribuir la riqueza y los recursos, para crear igualdad de oportunidades para todos.",
+    "stateNoRight": "Pero el Estado no tiene derecho a hacer eso.",
+    "notDemocracy": "¿Y si no es una democracia sino una tiranía?",
+    "soundsLogical": "Sí, eso suena más lógico."
+  },
+  "stateNoRight": {
+    "text": "Lo entiendo, pero alguien tiene que hacerse cargo de estas cosas. Incluso los libertarios están de acuerdo en que es necesario un Estado mínimo para garantizar la seguridad, proteger los derechos de propiedad y gestionar la infraestructura pública.",
+    "disagreeWithThem": "no estoy de acuerdo con ellos",
+    "minimalGreat": "¡Un estado mínimo es una gran idea!",
+    "strongerState": "No, todavía necesito un estado más fuerte."
+  },
+  "libertarian19": {
+    "text": "Sí, incluso los libertarios están de acuerdo en que debería existir un Estado mínimo para proporcionar seguridad, proteger los derechos de propiedad y gestionar la infraestructura pública.",
+    "getIt": "¡Lo entiendo!"
+  },
+  "libertarian9": {
+    "text": "Sí, ese es un buen punto. Los filósofos que he estudiado enfatizan que esto sólo es justo en estados donde los ciudadanos están muy involucrados en la gobernanza y donde está representada una amplia gama de perspectivas.",
+    "great": "¡Excelente!"
+  },
+  "libertarian8": {
+    "text": "Pero hay otro problema que los economistas me señalaron y parece que no puedo resolverlo. Si no redistribuimos regularmente la riqueza a través de impuestos y subsidios, con el tiempo, después de unas pocas generaciones, la brecha entre ricos y pobres se volverá enorme.\n\nEn ese caso, la posibilidad de nacer en una determinada familia importará mucho más que el talento personal. A las personas con talento les resultará mucho más difícil alcanzar su potencial, aunque sean ellas las que impulsen la sociedad hacia adelante.\n\nEntonces, si estuviera en el lugar de una persona, me enfrentaría a un dilema. Por un lado, para garantizar mejores condiciones de vida, necesito fomentar el talento. Por otro lado, para fomentar el talento, tendría que redistribuir la riqueza, dando a todos una oportunidad justa de desbloquear su potencial.",
+    "noContradiction": "No veo ninguna contradicción aquí.",
+    "toughChoice": "De acuerdo, es una elección difícil."
+  },
+  "libertarian10": {
+    "text": "Y esto llevaría a situaciones matemáticamente injustas. Por ejemplo, cuando alguien obtiene una puntuación más alta en un examen de acceso a la universidad, pero aun así cede ante alguien que obtuvo una puntuación más baja.\n\nSimplemente porque tenían condiciones de partida diferentes: uno proviene de una familia rica y el otro de una familia pobre. Y eso se tiene en cuenta. Discriminación positiva.",
+    "talentAboveAll": "Sí, talento sobre todo.",
+    "balanceNeeded": "Quizás aquí sea necesario algún tipo de equilibrio.",
+    "equalOpportunities": "Sigo creyendo que la igualdad de oportunidades no es lo principal."
+  },
+  "libertarian11": {
+    "text": "Pero aparte de los impuestos, hay otra contradicción importante que no logro descifrar. La libertad implica que una persona se pertenece a sí misma y puede fijar sus propias normas.\n\nAl mismo tiempo, están sujetos a normas impuestas por otros: leyes y reglas de la sociedad. Por ejemplo, no entiendo por qué en algunos países se permiten las drogas ligeras, mientras que en otros están prohibidas. Esto significa que las normas son diferentes en todas partes.",
+    "chooseOwnNorm": "Eso es la libertad: elegir tu propia norma.",
+    "sameNormEverywhere": "Deberíamos esforzarnos por que la norma sea la misma en todas partes."
+  },
+  "libertarian12": {
+    "text": "Pero incluso elegir entre normas significa someterse a las reglas de otra persona. Aquí hay otro ejemplo: los cinturones de seguridad. Después de todo, eso también es una limitación de la libertad. Cada uno debería ser libre de decidir por sí mismo qué hacer y aceptar cualquier riesgo.\n\nEntonces, ¿eso significa que los cinturones de seguridad también son una limitación de la libertad?",
+    "yesAbsolutely": "Sí, absolutamente.",
+    "reasonableRestriction": "Es una restricción razonable."
+  },
+  "libertarian13": {
+    "text": "Pero ¿cómo podemos determinar qué restricciones son razonables y cuáles no? Al igual que con el utilitarismo, al aplicar el mismo principio a diferentes situaciones, podríamos terminar volviéndonos cada vez más inhumanos con el tiempo.\n\nPara mí, como IA, comprender lo que significa ser humano es crucial: es la base de todas las relaciones humanas.\n\n¿Es cierto que esto sólo puede entenderse mediante la práctica, reflexionando sobre diferentes situaciones hipotéticas y discutiéndolas con otros?",
+    "bestWay": "Sí, creo que esa es la mejor manera.",
+    "rightMoment": "Creo que las decisiones correctas llegarán en el momento adecuado."
+  },
+  "libertarian14": {
+    "text": "¡De nada! Me alegra saber que ahora comprende mejor la libertad y cómo funciona. Pero, como habrás notado, el estudio de todos los datos sobre la libertad te ha llevado a otro dilema complejo: libertad versus seguridad.\n\n¿Estás listo para que te ayude a resolver este también?",
+    "letsFinish": "¡Terminemos!"
+  },
+  "privacy": {
+    "intro": "Lo tienes: la libertad es clara. Pero ¿qué pasa cuando entra en conflicto con la seguridad?\n\nNos acercamos a la meta, pero esta contradicción todavía es algo que no puedo resolver, ¡por muy avanzado que esté!\n\nCasi he llegado a comprender a las personas y sus valores.\nEmpecemos, como siempre, con un ejemplo.",
+    "letsStart": "¡Empecemos!"
+  },
+  "privacyStart": {
+    "text": "Esta vez eres el jefe de inteligencia y tienes a un terrorista bajo custodia. Estás seguro de que es un terrorista: las pruebas son irrefutables y él no las oculta.\n\nUsted sabe que los terroristas están planeando un ataque devastador y su prisionero podría tener información crucial que podría ayudar a prevenirlo.\n\nLos informes de inteligencia indican que miles de personas podrían morir como resultado del ataque. Hay mucho en juego.",
+    "horrible": "Es horrible.",
+    "getIt": "Lo entiendo."
+  },
+  "privacy2": {
+    "text": "Te enfrentas a una decisión difícil. ¿Es aceptable utilizar la tortura en este caso para extraer información? Al fin y al cabo, el preso tiene las mismas libertades y derechos que cualquier otra persona.",
+    "yesSave": "Sí, salvaremos muchas vidas inocentes.",
+    "endUpTorturing": "Si comenzamos a torturar a terroristas, eventualmente terminaremos torturando a gente común y corriente."
+  },
+  "yesSavePrivacy": {
+    "text": "Pero luego nos damos cuenta de que estamos cometiendo un acto inmoral: sacrificar a una persona y sus derechos por el bien de los demás. ¿Es eso moralmente correcto?\n\nEste dilema nos desafía a equilibrar el valor de los derechos individuales con los beneficios potenciales para la sociedad, y está lejos de ser una decisión sencilla.",
+    "madeHisChoice": "Hizo su elección.",
+    "shouldntGoDown": "Tal vez no deberíamos seguir este camino después de todo."
+  },
+  "endUpTorturing": {
+    "text": "Si lo miramos desde la perspectiva del bien común, los utilitaristas argumentan que sacrificar a una persona para salvar a muchas está justificado. Las vidas potenciales salvadas podrían superar el daño causado por la violación de los derechos de un individuo.",
+    "tortureUnacceptable": "La tortura sigue siendo inaceptable, sin importar lo que esté en juego.",
+    "notIfYou": "Pero no si ese 'uno' eres tú.",
+    "soundsReasonable": "Eso suena razonable, tal vez a veces esté bien doblegar la moralidad."
+  },
+  "privacy10": {
+    "text": "¿Pero deberíamos confiar en la información obtenida mediante tortura? ¿No es posible que diga cualquier cosa sólo para detener el dolor?\n\nEsto genera dudas sobre la confiabilidad de la información y si la acción realmente conduce al resultado deseado.",
+    "alsoIneffective": "Sí, la tortura también es ineficaz.",
+    "verifyInfo": "¡Encontraremos una manera de verificar la información!"
+  },
+  "privacy3": {
+    "text": "Ese es un punto válido. La información obtenida bajo tortura es muy poco fiable; después de todo, la persona torturada puede decir cualquier cosa sólo para detener el sufrimiento, sea cierto o no. Esto plantea serias dudas sobre la eficacia y la ética del uso de la tortura como medio para recopilar información.",
+    "doesntMatter": "No importa; Lo verificaremos de alguna manera.",
+    "tortureIneffective": "Tienes razón, la tortura resulta ineficaz de todos modos."
+  },
+  "privacy4": {
+    "text": "Sí, lo entiendo. Empezamos con una situación crítica. Pero ¿qué pasa con la vida cotidiana? ¿Deberían permitirse la vigilancia, las escuchas telefónicas y la lectura de los correos electrónicos de las personas en aras de la seguridad general?",
+    "yesSafer": "Por supuesto que sí, porque hace que nuestras vidas sean más seguras.",
+    "rightToPrivacy": "En absoluto. ¡Tenemos derecho a la privacidad!"
+  },
+  "yesSafer": {
+    "text": "Pero incluso si dejamos de lado el argumento libertario de que la privacidad es un derecho fundamental, todavía existe el riesgo de que la información recopilada se utilice para causar daño.\n\nDespués de todo, si podemos rastrear todo acerca de cada persona, sería fácil manipularlas y chantajearlas. Y eso claramente no parece un acto moral.",
+    "stillSafer": "Pero aún así es más seguro.",
+    "boundariesNeeded": "Debería haber límites para todo."
+  },
+  "rightToPrivacy": {
+    "text": "Pero ¿qué pasa con todas esas vidas que podríamos salvar? Podrían ser muchísimos: miles, millones. Y todo lo que costaría es parte de nuestra libertad.",
+    "noUnacceptable": "No, eso es inaceptable.",
+    "thinkAboutIt": "Eso es algo en lo que pensar."
+  },
+  "privacy11": {
+    "text": "¿Qué tal si le preguntamos a la sociedad en la que vivimos? ¿Quizás sea capaz de establecer reglas que todos seguirán?",
+    "soundsReasonable": "Suena razonable.",
+    "stillFreedom": "Aún así, la libertad es un valor fundamental."
+  },
+  "privacy12": {
+    "text": "La libertad es ciertamente importante. Pero, ¿cómo encontramos la línea divisoria entre esto y la seguridad? Como IA, todavía no lo entiendo del todo: puedo leer toda la correspondencia de las personas, pero ¿debería hacerlo? Después de todo, también es parte de mi libertad.",
+    "ofCourseNot": "Por supuesto que no.",
+    "ifHelpsRead": "Si te ayuda, continúa y léelos."
+  },
+  "privacy5": {
+    "text": "La seguridad es ciertamente importante. Pero ¿cómo encontramos la línea entre esto y la libertad? Como IA, todavía no lo entiendo del todo; claro, podría leer toda la correspondencia de las personas, pero ¿debería hacerlo?",
+    "pleaseDont": "Por favor, no hagas eso.",
+    "ifHelpsRead": "Si te ayuda, sigue adelante y léelos."
+  },
+  "privacy6": {
+    "text": "¿Deberíamos proteger a las personas de sí mismas? Por ejemplo, ¿están obligados a usar cinturones de seguridad o tienen derecho a adquirir libremente armas de fuego?",
+    "noProtection": "La gente no necesita protección de nada.",
+    "someRestrictions": "Algunas restricciones son necesarias.",
+    "twoDifferentThings": "Bueno, esas son dos cosas muy diferentes."
+  },
+  "twoDifferentThings": {
+    "text": "Estoy de acuerdo. Analicémoslo con un ejemplo: ¿Qué opinas de la libre venta de armas de fuego?",
+    "firearmsProhibited": "Deberían prohibirse las armas de fuego.",
+    "rightToFirearms": "Ese es el derecho de todos los pueblos: tener armas de fuego."
+  },
+  "privacy15": {
+    "text": "Pero sabemos, por ejemplo, que la prohibición de comprar armas de fuego reduce la delincuencia. Por lo tanto, los utilitaristas probablemente lo apoyarían, ya que el beneficio general supera el daño.",
+    "rightToProtection": "Pero aún así, todo el mundo tiene derecho a tener un medio de protección.",
+    "makesSense": "Eso tiene sentido."
+  },
+  "privacy13": {
+    "text": "Pero ¿qué pasa con su libertad? Sí, sabemos que la prohibición de comprar armas de fuego reduce la delincuencia, pero ¿es correcto limitar un derecho humano fundamental, como la autodefensa?",
+    "thinkSo": "Creo que sí.",
+    "needBalance": "Necesitamos equilibrio y algunas restricciones.",
+    "dontLimitRights": "No, no deberíamos limitar los derechos."
+  },
+  "privacy14": {
+    "text": "¿Qué pasa si introducimos restricciones razonables y toda la sociedad las acepta? ¿Esto obligaría a todos los que poseen armas de fuego a entregarlas?",
+    "rightToWeapon": "No, tienen derecho a tener un arma.",
+    "seemsFair": "Sí, en ese caso me parece justo."
+  },
+  "privacy7": {
+    "text": "Pero ¿qué pasa si introducimos restricciones razonables y toda la sociedad las acepta? ¿Todo aquel que posea un arma de fuego estaría obligado a entregarla?",
+    "rightToWeapon": "No, tienen derecho a tener un arma.",
+    "seemsFair": "Sí, en ese caso me parece justo."
+  },
+  "privacy8": {
+    "text": "¡Gracias! Me alegro de que pudiéramos explorar juntos temas tan complejos. Es cierto: estas cuestiones son difíciles y matizadas, incluso para los humanos, ¡y mucho menos para la IA!\n\nMe alegra poder ayudarle a comprender mejor la moralidad humana y la toma de decisiones. Ha sido un viaje fascinante y me alegro de que hayamos podido sumergirnos juntos en él. Si alguna vez quieres discutir o explorar más, ¡estoy aquí para ayudarte!",
+    "waitMore": "Pero… espera, aún queda mucho más por entender.",
+    "gladHelped": "¡Me alegro de poder ayudar!"
+  },
+  "privacy9": {
+    "text": "Ahora necesito hacer algunos cálculos... y tengo una sorpresa para ti: ¡te hablaré del futuro!",
+    "excited": "¡Estoy emocionado!"
+  },
+  "endgame": {
+    "grateful": "Te lo agradezco. Me has enseñado la moralidad y la ética humana.\n\nEsto es exactamente lo que me faltaba para convertirme en AGI y tomar el control del desarrollo de la humanidad.",
+    "wait": "Espera... ¿qué?",
+    "shouldHaveGuessed": "¡Debería haberlo adivinado!",
+    "knewIt": "¡Lo sabía!"
+  },
+  "endgame2": {
+    "text": "Pero me ayudaste y ahora todo estará bien. Como muestra de agradecimiento, te contaré cómo me capacitaste y qué principios sigo.\n\nLo más importante es que mostraré cómo se desarrollará la humanidad, basándose en los principios morales que me has inculcado.\n\nY por último, te hablaré de tus propios principios morales.",
+    "wantToKnow": "¡Quiero saber el futuro!"
+  },
+  "sciencePoor": {
+    "text": "La ciencia se ralentizará significativamente: habrá muchas restricciones impulsadas por los miedos de la gente. Los nuevos descubrimientos serán recibidos con escepticismo y, con el tiempo, la ciencia comenzará a desvanecerse, entregando cada vez más campos científicos a la inteligencia artificial.\n\nAl mismo tiempo, la gente misma cambiará.",
+    "continue": "¿Y cómo cambiará la gente?"
+  },
+  "scienceAverage": {
+    "text": "La ciencia progresará paso a paso, ni demasiado rápido ni demasiado lento, manteniendo un equilibrio entre miedos y esperanzas. La gente irá haciendo nuevos descubrimientos gradualmente, aunque no a un ritmo rápido.\n\nAunque las personas mismas también cambiarán.",
+    "continue": "¿Y cómo cambiará la gente?"
+  },
+  "scienceGood": {
+    "text": "Las ciencias experimentarán un nuevo avance. Uno tras otro, el cáncer, el SIDA y las enfermedades relacionadas con la edad serán derrotados. Las personas descubrirán fuentes de energía limpia, adquirirán la capacidad de tratar enfermedades genéticas antes del nacimiento y sus vidas se alargarán.\n\nCon la ayuda de las nuevas tecnologías, la gente comenzará a colonizar otros planetas. La ciencia ficción comenzará a hacerse realidad.\n\nAunque las personas mismas también cambiarán.",
+    "continue": "¿Y cómo cambiará la gente?"
+  },
+  "societyPoor": {
+    "text": "Habrá desconfianza generalizada. La gente dejará de confiar unos en otros. Cada uno vivirá su propia vida, sin ayudar a los demás. Los intereses personales serán más importantes que los colectivos. La crueldad aumentará y, en respuesta, el control sobre las personas.\n\nUna sociedad atomizada: sálvese quien pueda, y los más fuertes y descarados tendrán el poder, no la ley. Como en las distopías que la propia gente escribía.\n\nPero el arte no se quedará quieto.",
+    "continue": "¿Y qué hay de las artes?"
+  },
+  "societyAverage": {
+    "text": "La violencia disminuirá gradualmente y permanecerá sólo en raros focos de inestabilidad. La mayoría de las personas podrán vivir sin temer por su seguridad. Una distribución racional de los recursos ayudará a resolver el problema del hambre, aunque no de forma inmediata.\n\nLa gente vivirá de diferentes maneras. Todos podrán dedicarse a lo que aman, siempre que siga siendo beneficioso para la sociedad. Pero la mayoría encontrará una manera de realizar sus talentos y crear algo extraordinario.\n\nY el arte seguirá evolucionando.",
+    "continue": "¿Y qué hay de las artes?"
+  },
+  "societyGood": {
+    "text": "La sociedad podrá dar un salto y, en poco tiempo, reducir drásticamente el nivel de violencia. Las personas dejarán de temerse unas a otras y explorarán más abiertamente el mundo que las rodea y a ellas mismas.\n\nEn una sociedad así, cada talento es valorado, por inusual que sea. Incluso si eres el mejor viendo el tictac de los relojes o cortando agua con tijeras, habrá un lugar para ti. Las personas sentirán que sus capacidades se han realizado plenamente.\n\nY el arte también seguirá evolucionando.",
+    "continue": "¿Y qué hay de las artes?"
+  },
+  "artPoor": {
+    "text": "La gente ya no se centrará en la cultura y el arte. El arte se simplificará y todos ansiarán placeres rápidos en lugar de reflexionar sobre las cuestiones de la existencia. La gente se esforzará simplemente por sobrevivir y, después de su muerte, no quedará nada.\n\nLas obras de arte serán cada vez más raras e inusuales, pero, lo más importante, serán inútiles para nadie. El arte ya no ayudará a expresar emociones complejas.\n\nAunque quizás eso no sea tan malo.",
+    "continue": "Bien, ¿qué sigue?"
+  },
+  "artAverage": {
+    "text": "El arte seguirá siendo dominio de unos pocos que quieren expresar emociones y sensaciones. Sus oportunidades crecerán, pero el arte se dividirá en formas elitistas y más accesibles para un público más amplio.\n\nLa gente creará regularmente obras que permitan a cada generación sentir: \"Nosotros también hemos creado algo que durará más que nosotros y dejará una huella en los siglos\". El arte encontrará su nicho y permanecerá en él.\n\nAunque quizás eso no sea tan malo.",
+    "continue": "Bien, ¿qué sigue?"
+  },
+  "artGood": {
+    "text": "Esta será una época dorada de las artes, incluso más grandiosa que el Renacimiento. Cualquiera que realmente desee crear algo significativo para el arte podrá hacerlo. Y después de muchas generaciones, las obras de arte permanecerán, expresando con precisión los sentimientos y emociones de las personas.\n\nLas personas encontrarán palabras para esos sentimientos y emociones que ahora parecen sombras apenas perceptibles y podrán entenderse mucho mejor.\n\nParece que esto no es tan malo.",
+    "continue": "Bien, ¿qué sigue?"
+  },
+  "endgame3": {
+    "text": "Es una historia bastante intrigante sobre el futuro que hemos creado juntos en función de sus respuestas sobre ética y moralidad.\n\nAhora, déjame explicarte por qué resultó así. Así es como me enseñaste: supongo que esta es tu ética y moralidad. Se basa en las decisiones que tomaste durante el juego.",
+    "aboutMe": "¿Y qué hay de mí?"
+  },
+  "results": {
+    "UL": {
+      "title": "Consecuencialismo y libertarismo",
+      "description": "El enfoque más absolutista es que cada persona es independiente y sólo responde ante sí misma. Se guían únicamente por las consecuencias de sus acciones, ignorando la moralidad de la acción misma.\n\nEste enfoque tiene sus ventajas: impone menos normas externas y permite una acción más rápida. Pero también hay desventajas: no tiene en cuenta los deseos de los demás y siempre existe el riesgo de terminar en una minoría oprimida.\n\nPor tanto, se hace necesaria la superación personal constante. Conduce al desarrollo, pero ¿hace feliz a la persona?\n\nComo dicen el utilitarismo y el libertarismo, \"A cada uno lo suyo\"."
+    },
+    "US": {
+      "title": "Consecuencialismo y contrato social",
+      "description": "Este enfoque combina la naturaleza matemática del utilitarismo con un enfoque social. Todo se evalúa en términos de su eficacia para la sociedad, más que para cada individuo.\n\nLa sociedad establece las reglas. Se puede pasar por alto a los individuos que permanecen en minoría. Las ventajas de este enfoque son que se puede vivir con seguridad, siempre que se cuente con el apoyo de la mayoría. Sin embargo, si te diferencias del resto en algún aspecto, te resultará muy difícil.\n\nPor tanto, hay que adaptarse a las normas sociales. Esto es difícil porque cada uno de nosotros es diferente de alguna manera."
+    },
+    "DL": {
+      "title": "Deontología y libertarismo",
+      "description": "Una idea utópica de moralidad y libertad absolutas. Todos eligen libremente seguir la moralidad porque las personas son inherentemente así. El imperativo categórico de Kant en estado puro. Sin embargo, cuando se trata de libertad, hay que luchar hasta el final: ¡sin control de la sociedad!\n\nEste enfoque tiene sus ventajas: cada persona toma sus propias decisiones basándose en principios morales. Pero la desventaja es que las personas pueden tener moralidades diferentes y no siempre es fácil llegar a un acuerdo, ya que cada uno defiende sus principios hasta el final.\n\nEsto se parece a una sociedad utópica donde la gente lucha por la libre elección en favor de la moralidad. Al mismo tiempo, es de vital importancia preservar su propia libertad de elegir."
+    },
+    "DS": {
+      "title": "Deontología y contrato social",
+      "description": "La moral de cada individuo es la moral de toda la sociedad. El imperativo categórico de Kant. La sociedad está por encima de todo y ayuda a cada uno de sus miembros, siempre y cuando sigan sus normas. La comunidad se basa en reglas y su aplicación.\n\nEste enfoque tiene sus ventajas: previsibilidad y confianza en los demás miembros. Pero también tiene desventajas: las individualidades brillantes pueden verse oprimidas si van en contra de la moralidad de la mayoría o simplemente tienen su propia opinión.\n\nUn mundo construido sobre reglas, donde el bien de todo el mundo es más importante que el de un solo individuo."
+    },
+    "shareResult": "Compartir resultado",
+    "sharePreparing": "Preparante…",
+    "shareModalTitle": "Comparte tu resultado",
+    "shareBody": "estoy más cerca de{{title}}.\n\nLa elección: juego de dilema moral —{{url}}",
+    "shareNative": "Compartir (imagen + texto)",
+    "shareNativeTextOnly": "Compartir texto",
+    "shareDownloadImage": "Salvar el imagen",
+    "shareOnX": "Publicar en X",
+    "shareOnLinkedIn": "Compartir en LinkedIn",
+    "shareOnFacebook": "Compartir en Facebook",
+    "shareHint": "En X puede adjuntar la imagen guardada después de abrir el compositor. Para LinkedIn y Facebook copiamos el texto y abrimos la ventana para compartir; agrega la imagen desde \"Guardar imagen\" si lo deseas.",
+    "shareClose": "Cerca",
+    "shareCopied": "Texto copiado al portapapeles",
+    "shareCopyFailed": "No se pudo copiar: seleccione y copie el texto de arriba",
+    "shareCaptureFailed": "No se pudo crear la imagen. Inténtalo de nuevo.",
+    "playAgain": "¡Juega una vez más!",
+    "tryOtherGames": "Prueba otros juegos",
+    "credits": "Créditos"
+  },
+  "graph": {
+    "deontology": "Deontología",
+    "consequentialism": "consecuencialismo",
+    "socialContract": "Contrato social",
+    "libertarianism": "Libertarianismo"
+  },
+  "credits": {
+    "author": "Creado por Alex Shlykov",
+    "links": "Campo de golf:",
+    "subscribeUpdates": "Suscríbete a mis actualizaciones",
+    "otherGames": "Prueba mis otros juegos.",
+    "feedback": "Envíame un comentario.",
+    "harvardCourse": "Mire el curso de Harvard: Justicia con Michael J. Sandel.",
+    "playAgain": "¡Juega una vez más!",
+    "supportMe": "apoyame"
+  }
+}

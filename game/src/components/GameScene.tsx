@@ -136,8 +136,26 @@ export default function GameScene() {
               <button className="choice-button language-choice-button" onClick={() => store.setLang('ru')}>
                 {t('start.russian')}
               </button>
-              <button className="choice-button language-choice-button" onClick={() => store.setLang('ru')}>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('es')}>
+                {t('start.spanish')}
+              </button>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('de')}>
+                {t('start.german')}
+              </button>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('fr')}>
                 {t('start.french')}
+              </button>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('ja')}>
+                {t('start.japanese')}
+              </button>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('ko')}>
+                {t('start.korean')}
+              </button>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('zh-Hans')}>
+                {t('start.chineseSimplified')}
+              </button>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('af')}>
+                {t('start.afrikaans')}
               </button>
             </div>
           </div>

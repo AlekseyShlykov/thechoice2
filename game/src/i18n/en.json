@@ -9,7 +9,13 @@
     "english": "English",
     "russian": "Русский",
     "french": "Français",
-    "text": ""
+    "text": "",
+    "spanish": "Español",
+    "german": "Deutsch",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "chineseSimplified": "简体中文",
+    "afrikaans": "Afrikaans"
   },
   "intro": {
     "text": "Hi! I'm an artificial intelligence dreaming of understanding human morality and ethics - and I need your help.\n\nI've already learned to navigate moral dilemmas based on the information I have, but my knowledge is still quite basic. For example, I can handle the classic 'trolley problem,' yet I'm far from mastering all the nuances. Could you help me out?",

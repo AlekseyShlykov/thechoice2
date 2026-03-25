@@ -2,7 +2,7 @@ import { create } from 'zustand';
 
 export interface GameState {
   currentPassage: string;
-  lang: 'en' | 'ru';
+  lang: 'en' | 'ru' | 'es' | 'de' | 'fr' | 'ja' | 'ko' | 'zh-Hans' | 'af';
   started: boolean;
   soundOn: boolean;
 
@@ -47,7 +47,7 @@ export interface GameState {
 
 export interface GameActions {
   setPassage: (id: string) => void;
-  setLang: (lang: 'en' | 'ru') => void;
+  setLang: (lang: 'en' | 'ru' | 'es' | 'de' | 'fr' | 'ja' | 'ko' | 'zh-Hans' | 'af') => void;
   setStarted: () => void;
   toggleSound: () => void;
   updateVar: (key: keyof GameState, value: number | string | boolean) => void;
