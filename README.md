@@ -2,7 +2,7 @@
 
 **The Choice** is an interactive narrative game exploring core moral philosophies through a series of dilemmas. Make decisions, reflect on your values, and discover which ethical theories resonate most with your worldview.
 
-## Built With
+## Built With  
 [Twine](https://twinery.org/)
 [SugarCube 2](https://www.motoslave.net/sugarcube/)
 HTML, CSS, JavaScript
