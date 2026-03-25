@@ -8,6 +8,57 @@ import ShareResultButton from './ShareResultButton';
 import './GameScene.css';
 
 const RESULT_PASSAGES = ['resultUL', 'resultUS', 'resultDL', 'resultDS'];
+const SUPPORTED_LANGS = ['en', 'ru', 'es', 'de', 'fr', 'ja', 'ko', 'zh-Hans', 'af'] as const;
+type SupportedLang = (typeof SUPPORTED_LANGS)[number];
+const BASE_SEGMENTS = import.meta.env.BASE_URL.split('/').filter(Boolean);
+const SEO_LANG_MAP: Record<SupportedLang, string> = {
+  en: 'en',
+  ru: 'ru',
+  es: 'es',
+  de: 'de',
+  fr: 'fr',
+  ja: 'ja',
+  ko: 'ko',
+  'zh-Hans': 'zh-Hans',
+  af: 'af',
+};
+
+function isSupportedLang(value: string): value is SupportedLang {
+  return (SUPPORTED_LANGS as readonly string[]).includes(value);
+}
+
+function stripBaseSegments(pathname: string): string[] {
+  const parts = pathname.split('/').filter(Boolean);
+  const baseMatches = BASE_SEGMENTS.every((seg, idx) => parts[idx] === seg);
+  return baseMatches ? parts.slice(BASE_SEGMENTS.length) : parts;
+}
+
+function getLangFromPath(pathname: string): SupportedLang | null {
+  const parts = stripBaseSegments(pathname);
+  const first = parts[0];
+  return first && isSupportedLang(first) ? first : null;
+}
+
+function withLangInPath(pathname: string, lang: SupportedLang): string {
+  const parts = stripBaseSegments(pathname);
+  if (parts[0] && isSupportedLang(parts[0])) {
+    parts[0] = lang;
+  } else {
+    parts.unshift(lang);
+  }
+  return `/${[...BASE_SEGMENTS, ...parts].join('/')}`;
+}
+
+function ensureCanonical(urlPath: string): void {
+  const href = `${window.location.origin}${urlPath}`;
+  let canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement('link');
+    canonical.setAttribute('rel', 'canonical');
+    document.head.appendChild(canonical);
+  }
+  canonical.href = href;
+}
 
 export default function GameScene() {
   const { t, i18n } = useTranslation();
@@ -19,9 +70,23 @@ export default function GameScene() {
   const sceneContentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const urlLang = getLangFromPath(window.location.pathname);
+    if (urlLang && urlLang !== lang) {
+      store.setLang(urlLang);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
     if (lang && i18n.language !== lang) {
       i18n.changeLanguage(lang);
     }
+    document.documentElement.lang = SEO_LANG_MAP[lang];
+    const nextPath = withLangInPath(window.location.pathname, lang);
+    if (nextPath !== window.location.pathname) {
+      window.history.replaceState(window.history.state, '', `${nextPath}${window.location.search}${window.location.hash}`);
+    }
+    ensureCanonical(nextPath);
   }, [lang, i18n]);
 
   useEffect(() => {
