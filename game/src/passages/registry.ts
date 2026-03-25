@@ -27,18 +27,9 @@ export const passages: Record<string, Passage> = {
     textKey: 'start.text',
     choices: [
       {
-        textKey: 'start.english',
+        textKey: 'start.playNow',
         action: (s) => {
-          s.setLang('en');
-          track('choice_made', { passage: 'Start', choice_id: 'choose_language', lang: 'en' });
-          goto(s, 'intro');
-        },
-      },
-      {
-        textKey: 'start.russian',
-        action: (s) => {
-          s.setLang('ru');
-          track('choice_made', { passage: 'Start', choice_id: 'choose_language', lang: 'ru' });
+          track('choice_made', { passage: 'Start', choice_id: 'play_now', lang: s.lang });
           goto(s, 'intro');
         },
       },

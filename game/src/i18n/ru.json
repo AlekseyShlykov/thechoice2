@@ -1,11 +1,14 @@
 {
   "start": {
-    "titleLine1": "The Choice:",
-    "titleLine2": "Moral Dilemma Game",
-    "subtitlePart1": "Playing time: 17 min",
-    "subtitlePart2": "created by Alex Shlykov",
+    "titleLine1": "Выбор:",
+    "titleLine2": "Игра о моральных дилеммах",
+    "subtitlePart1": "Время прохождения: 17 мин",
+    "subtitlePart2": "автор: Алексей Шлыков",
+    "chooseLanguage": "Выберите язык",
+    "playNow": "Play now!",
     "english": "English",
     "russian": "Русский",
+    "french": "Français",
     "text": ""
   },
   "intro": {

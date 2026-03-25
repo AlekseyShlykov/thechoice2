@@ -82,6 +82,11 @@ export default function GameScene() {
               </span>
               <span className="start-subtitle-line">{t('start.subtitlePart2')}</span>
             </h2>
+            {passage.choices[0] && (
+              <button className="choice-button start-play-button" onClick={() => passage.choices[0].action(store)}>
+                {t(passage.choices[0].textKey, { defaultValue: passage.choices[0].textKey })}
+              </button>
+            )}
           </div>
         )}
 
@@ -121,15 +126,32 @@ export default function GameScene() {
 
       <div className="choices-container">
         {isResultPage && <ShareResultButton resultTitle={resultTitlePlain} />}
-        {passage.choices.map((choice, idx) => (
-          <button
-            key={`${currentPassage}-${idx}`}
-            className="choice-button"
-            onClick={() => choice.action(store)}
-          >
-            {t(choice.textKey, { defaultValue: choice.textKey })}
-          </button>
-        ))}
+        {isStartPage ? (
+          <div className="language-choices-wrap">
+            <div className="language-choices-title">{t('start.chooseLanguage')}</div>
+            <div className="language-choices" role="group" aria-label="Language selection">
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('en')}>
+                {t('start.english')}
+              </button>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('ru')}>
+                {t('start.russian')}
+              </button>
+              <button className="choice-button language-choice-button" onClick={() => store.setLang('ru')}>
+                {t('start.french')}
+              </button>
+            </div>
+          </div>
+        ) : (
+          passage.choices.map((choice, idx) => (
+            <button
+              key={`${currentPassage}-${idx}`}
+              className="choice-button"
+              onClick={() => choice.action(store)}
+            >
+              {t(choice.textKey, { defaultValue: choice.textKey })}
+            </button>
+          ))
+        )}
       </div>
     </div>
   );
