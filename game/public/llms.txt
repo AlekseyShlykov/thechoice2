@@ -1,0 +1,23 @@
+# The Choice: Moral Dilemma Game
+
+> Official website and interactive narrative project by Alex Shlykov.
+
+## Project
+- Name: The Choice
+- URL: https://thechoice.quest/
+- Type: Interactive narrative game about ethics and moral philosophy
+- Language: Multilingual (UI and story content)
+
+## What this site is about
+The Choice is a short, replayable story game where players make decisions in moral dilemmas and compare ethical frameworks such as utilitarianism and deontology.
+
+## Primary pages
+- https://thechoice.quest/
+
+## Source and license
+- Repository: https://github.com/AlekseiShlykov/the-choice2
+- License: CC BY-NC-SA 4.0
+- License URL: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## Contact
+- Author: Alex Shlykov

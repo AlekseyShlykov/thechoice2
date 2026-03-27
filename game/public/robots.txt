@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block technical or analytics-like URL patterns if they appear.
+Disallow: /*?utm_*
+Disallow: /*?fbclid=*
+Disallow: /*?gclid=*
+
+Sitemap: https://thechoice.quest/sitemap.xml
