@@ -80,8 +80,12 @@
     "text": "I understand. For many, this kind of choice is simply unacceptable.\n\nThat's why I want to learn morality from you. As a human, you carry the values and ethics that define our species. You can feel the subtle nuances - something I, as an AI, am still trying to comprehend.\n\nReady to begin?",
     "letsStart": "Let's start!"
   },
+  "rezedaIntro": {
+    "text": "To better understand human ethics, I'll place you in real—and sometimes disturbing—scenarios to see what choices you make, and more importantly, why you make them.\n\nThese situations will often be extreme. They may offer no clear solution or lack enough information to make a fully informed decision. So listen to your gut—and choose what feels just a little less terrible.",
+    "letsBegin": "Let's begin!"
+  },
   "rezeda": {
-    "intro": "To better understand human ethics, I'll place you in real—and sometimes disturbing—scenarios to see what choices you make, and more importantly, why you make them.\n\nThese situations will often be extreme. They may offer no clear solution or lack enough information to make a fully informed decision. So listen to your gut—and choose what feels just a little less terrible.\n\nLet's begin.\n\n19th century. Atlantic Ocean.\nA yacht has sunk after being hit by a massive wave. Only four survivors remain on a lifeboat: the captain, you, a sailor, and a cabin boy.",
+    "intro": "Let's begin.\n\n19th century. Atlantic Ocean.\nA yacht has sunk after being hit by a massive wave. Only four survivors remain on a lifeboat: the captain, you, a sailor, and a cabin boy.",
     "nightmare": "What a nightmare!",
     "atLeast": "At least someone was saved."
   },

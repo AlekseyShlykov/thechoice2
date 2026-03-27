@@ -93,7 +93,8 @@ export default function GameScene() {
     if (passage?.onEnter) {
       passage.onEnter(store);
     }
-    sceneContentRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+    sceneContentRef.current?.scrollTo({ top: 0 });
+    window.scrollTo(0, 0);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPassage]);
 

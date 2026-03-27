@@ -59,7 +59,7 @@ export const passages: Record<string, Passage> = {
         textKey: 'intro.choice_wantToStart',
         action: (s) => {
           s.updateVar('dot1Color', 'green');
-          goto(s, 'rezeda');
+          goto(s, 'rezedaIntro');
         },
       },
     ],
@@ -197,7 +197,7 @@ export const passages: Record<string, Passage> = {
         textKey: 'theyAreThemIAmMe.letsStart',
         action: (s) => {
           track('tutorial_complete', { passage: 'theyAreThemIAmMe' });
-          goto(s, 'rezeda');
+          goto(s, 'rezedaIntro');
         },
       },
     ],
@@ -215,7 +215,7 @@ export const passages: Record<string, Passage> = {
         textKey: 'imJustAnObserver.letsStart',
         action: (s) => {
           track('tutorial_complete', { passage: 'imJustAnObserver' });
-          goto(s, 'rezeda');
+          goto(s, 'rezedaIntro');
         },
       },
     ],
@@ -233,13 +233,22 @@ export const passages: Record<string, Passage> = {
         textKey: 'iCantKillAHuman.letsStart',
         action: (s) => {
           track('tutorial_complete', { passage: 'iCantKillAHuman' });
-          goto(s, 'rezeda');
+          goto(s, 'rezedaIntro');
         },
       },
     ],
   },
 
   // ============ YACHT / REZEDA ============
+  rezedaIntro: {
+    id: 'rezedaIntro',
+    textKey: 'rezedaIntro.text',
+    image: 'assets/yacht1.png',
+    choices: [
+      { textKey: 'rezedaIntro.letsBegin', action: (s) => goto(s, 'rezeda') },
+    ],
+  },
+
   rezeda: {
     id: 'rezeda',
     textKey: 'rezeda.intro',

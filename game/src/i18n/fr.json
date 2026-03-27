@@ -81,7 +81,7 @@
     "letsStart": "Commençons !"
   },
   "rezeda": {
-    "intro": "Pour mieux comprendre l'éthique humaine, je vous placerai dans des scénarios réels – et parfois dérangeants – pour voir quels choix vous faites et, plus important encore, pourquoi vous les faites.\n\nCes situations seront souvent extrêmes. Il se peut qu’ils n’offrent aucune solution claire ou qu’ils manquent d’informations pour prendre une décision pleinement éclairée. Alors écoutez votre instinct et choisissez ce qui vous semble un peu moins terrible.\n\nCommençons.\n\n19ème siècle. Océan Atlantique.\nUn yacht a coulé après avoir été heurté par une énorme vague. Il ne reste que quatre survivants sur un canot de sauvetage : le capitaine, vous, un marin et un garçon de cabine.",
+    "intro": "Commençons.\n\n19ème siècle. Océan Atlantique.\nUn yacht a coulé après avoir été heurté par une énorme vague. Il ne reste que quatre survivants sur un canot de sauvetage : le capitaine, vous, un marin et un garçon de cabine.",
     "nightmare": "Quel cauchemar !",
     "atLeast": "Au moins quelqu'un a été sauvé."
   },
@@ -652,5 +652,9 @@
     "harvardCourse": "Regardez le cours de Harvard : Justice avec Michael J. Sandel.",
     "playAgain": "Jouez encore une fois !",
     "supportMe": "Soutenez-moi"
+  },
+  "rezedaIntro": {
+    "text": "Pour mieux comprendre l'éthique humaine, je vous placerai dans des scénarios réels – et parfois dérangeants – pour voir quels choix vous faites et, plus important encore, pourquoi vous les faites.\n\nCes situations seront souvent extrêmes. Il se peut qu’ils n’offrent aucune solution claire ou qu’ils manquent d’informations pour prendre une décision pleinement éclairée. Alors écoutez votre instinct et choisissez ce qui vous semble un peu moins terrible.",
+    "letsBegin": "Commençons !"
   }
 }

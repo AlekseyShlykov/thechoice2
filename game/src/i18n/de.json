@@ -80,8 +80,12 @@
     "text": "Ich verstehe. Für viele ist diese Art der Wahl einfach inakzeptabel.\n\nDeshalb möchte ich Moral von Ihnen lernen. Als Mensch tragen Sie die Werte und die Ethik in sich, die unsere Spezies ausmachen. Man kann die subtilen Nuancen spüren – etwas, das ich als KI immer noch zu verstehen versuche.\n\nBereit zum Start?",
     "letsStart": "Fangen wir an!"
   },
+  "rezedaIntro": {
+    "text": "Um die menschliche Ethik besser zu verstehen, werde ich Sie in reale – und manchmal beunruhigende – Szenarien versetzen, um zu sehen, welche Entscheidungen Sie treffen und, was noch wichtiger ist, warum Sie sie treffen.\n\nDiese Situationen werden oft extrem sein. Möglicherweise bieten sie keine klare Lösung oder es mangelt ihnen an ausreichenden Informationen, um eine fundierte Entscheidung zu treffen. Hören Sie also auf Ihr Bauchgefühl – und wählen Sie, was sich etwas weniger schrecklich anfühlt.",
+    "letsBegin": "Los geht's!"
+  },
   "rezeda": {
-    "intro": "Um die menschliche Ethik besser zu verstehen, werde ich Sie in reale – und manchmal beunruhigende – Szenarien versetzen, um zu sehen, welche Entscheidungen Sie treffen und, was noch wichtiger ist, warum Sie sie treffen.\n\nDiese Situationen werden oft extrem sein. Möglicherweise bieten sie keine klare Lösung oder es mangelt ihnen an ausreichenden Informationen, um eine fundierte Entscheidung zu treffen. Hören Sie also auf Ihr Bauchgefühl – und wählen Sie, was sich etwas weniger schrecklich anfühlt.\n\nFangen wir an.\n\n19. Jahrhundert. Atlantischer Ozean.\nEine Yacht ist gesunken, nachdem sie von einer gewaltigen Welle getroffen wurde. Nur noch vier Überlebende sind auf einem Rettungsboot: der Kapitän, Sie, ein Matrose und ein Schiffsjunge.",
+    "intro": "Fangen wir an.\n\n19. Jahrhundert. Atlantischer Ozean.\nEine Yacht ist gesunken, nachdem sie von einer gewaltigen Welle getroffen wurde. Nur noch vier Überlebende sind auf einem Rettungsboot: der Kapitän, Sie, ein Matrose und ein Schiffsjunge.",
     "nightmare": "Was für ein Albtraum!",
     "atLeast": "Zumindest wurde jemand gerettet."
   },

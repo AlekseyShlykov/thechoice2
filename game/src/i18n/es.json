@@ -80,8 +80,12 @@
     "text": "Entiendo. Para muchos, este tipo de elección es sencillamente inaceptable.\n\nPor eso quiero aprender moralidad de ti. Como ser humano, llevas los valores y la ética que definen a nuestra especie. Puedes sentir los matices sutiles, algo que yo, como IA, todavía estoy tratando de comprender.\n\n¿Listo para comenzar?",
     "letsStart": "¡Empecemos!"
   },
+  "rezedaIntro": {
+    "text": "Para comprender mejor la ética humana, lo ubicaré en escenarios reales (y a veces inquietantes) para que vea qué decisiones toma y, lo que es más importante, por qué las toma.\n\nEstas situaciones serán a menudo extremas. Es posible que no ofrezcan una solución clara o carezcan de información suficiente para tomar una decisión plenamente informada. Así que escuche sus instintos y elija lo que le parezca un poco menos terrible.",
+    "letsBegin": "¡Empecemos!"
+  },
   "rezeda": {
-    "intro": "Para comprender mejor la ética humana, lo ubicaré en escenarios reales (y a veces inquietantes) para que vea qué decisiones toma y, lo que es más importante, por qué las toma.\n\nEstas situaciones serán a menudo extremas. Es posible que no ofrezcan una solución clara o carezcan de información suficiente para tomar una decisión plenamente informada. Así que escuche sus instintos y elija lo que le parezca un poco menos terrible.\n\nEmpecemos.\n\nSiglo XIX. Océano Atlántico.\nUn yate se hundió tras ser golpeado por una enorme ola. Sólo quedan cuatro supervivientes en un bote salvavidas: el capitán, tú, un marinero y un grumete.",
+    "intro": "Empecemos.\n\nSiglo XIX. Océano Atlántico.\nUn yate se hundió tras ser golpeado por una enorme ola. Sólo quedan cuatro supervivientes en un bote salvavidas: el capitán, tú, un marinero y un grumete.",
     "nightmare": "¡Qué pesadilla!",
     "atLeast": "Al menos alguien se salvó."
   },
