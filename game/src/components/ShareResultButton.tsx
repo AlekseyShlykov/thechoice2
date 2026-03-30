@@ -89,21 +89,24 @@ export default function ShareResultButton({ resultTitle }: Props) {
   };
 
   const openX = () => {
+    downloadImage();
     const text = buildShareText();
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
+    setToast(t('results.shareImageSaved'));
+    setTimeout(() => setToast(null), 4000);
   };
 
   const copyAndOpen = async (openUrl: string) => {
+    downloadImage();
     const text = buildShareText();
     try {
       await navigator.clipboard.writeText(text);
-      setToast(t('results.shareCopied'));
-      setTimeout(() => setToast(null), 2500);
     } catch {
-      setToast(t('results.shareCopyFailed'));
-      setTimeout(() => setToast(null), 3000);
+      // clipboard may be unavailable
     }
+    setToast(t('results.shareImageSaved'));
+    setTimeout(() => setToast(null), 4000);
     window.open(openUrl, '_blank', 'noopener,noreferrer');
   };
 
