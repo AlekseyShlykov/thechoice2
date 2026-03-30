@@ -69,6 +69,7 @@ export const passages: Record<string, Passage> = {
   trolley: {
     id: 'trolley',
     textKey: 'trolley.intro',
+    image: 'assets/trolley1.png',
     choices: [
       { textKey: 'trolley.whatIsIt', action: (s) => goto(s, 'trolley2') },
       { textKey: 'trolley.iHeardAboutIt', action: (s) => goto(s, 'trolley2') },
