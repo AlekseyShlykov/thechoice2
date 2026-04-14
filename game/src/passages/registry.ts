@@ -1824,7 +1824,7 @@ export const passages: Record<string, Passage> = {
     onEnter: (s) => {
       submitToGoogleSheets({
         U: s.U, D: s.D, L: s.L, S: s.S,
-        Lang: `2${s.lang}`,
+        Lang: `2${s.lang}${s.tma ? 'tma' : ''}`,
         trolley1: s.trolley1, trolley2: s.trolley2,
         yacht1: s.yacht1, yacht2: s.yacht2,
         factory1: s.factory1, factory2: s.factory2,

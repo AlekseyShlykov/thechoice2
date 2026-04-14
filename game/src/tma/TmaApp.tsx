@@ -13,6 +13,7 @@ i18n.changeLanguage(lang);
 
 const store = useGameStore.getState();
 store.setLang(lang);
+store.updateVar('tma', true);
 
 window.history.replaceState(null, '', `/${lang}`);
 

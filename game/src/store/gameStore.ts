@@ -43,6 +43,8 @@ export interface GameState {
   yRatio: number;
   xPerc: number;
   yPerc: number;
+
+  tma: boolean;
 }
 
 export interface GameActions {
@@ -94,6 +96,7 @@ const initialState: GameState = {
   yRatio: 0.5,
   xPerc: 50,
   yPerc: 50,
+  tma: false,
 };
 
 export const useGameStore = create<GameState & GameActions>((set, get) => ({
@@ -135,8 +138,8 @@ export const useGameStore = create<GameState & GameActions>((set, get) => ({
   },
 
   resetGame: () => {
-    const { lang, soundOn } = get();
-    set({ ...initialState, lang, soundOn });
+    const { lang, soundOn, tma } = get();
+    set({ ...initialState, lang, soundOn, tma });
   },
 
   getState: () => get(),
