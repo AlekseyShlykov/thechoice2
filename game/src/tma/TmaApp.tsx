@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import i18n from '../i18n';
 import GameScene from '../components/GameScene';
 import { useGameStore } from '../store/gameStore';
-import { track } from '../utils/analytics';
 import { detectTmaLang } from './lang';
 import { initTelegram } from './telegram';
 import '../App.css';
@@ -14,9 +13,6 @@ i18n.changeLanguage(lang);
 
 const store = useGameStore.getState();
 store.setLang(lang);
-store.setStarted();
-store.setPassage('intro');
-track('game_start', { passage: 'Start', source: 'tma' });
 
 window.history.replaceState(null, '', `/${lang}`);
 
