@@ -1,6 +1,13 @@
+type Fbq = {
+  (command: 'trackCustom', eventName: string, params?: Record<string, unknown>): void;
+  (command: 'track', eventName: string, params?: Record<string, unknown>): void;
+  (command: 'init', pixelId: string, params?: Record<string, unknown>): void;
+};
+
 declare global {
   interface Window {
     dataLayer: Record<string, unknown>[];
+    fbq?: Fbq;
   }
 }
 
@@ -8,6 +15,16 @@ window.dataLayer = window.dataLayer || [];
 
 export function track(eventName: string, params: Record<string, unknown> = {}) {
   window.dataLayer.push({ event: eventName, ...params });
+}
+
+export function trackMeta(eventName: string, params: Record<string, unknown> = {}) {
+  try {
+    if (typeof window.fbq === 'function') {
+      window.fbq('trackCustom', eventName, params);
+    }
+  } catch {
+    // Meta Pixel unavailable
+  }
 }
 
 export function getDeviceType(): string {

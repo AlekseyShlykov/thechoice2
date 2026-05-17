@@ -1,5 +1,5 @@
 import type { GameState, GameActions } from '../store/gameStore';
-import { track, submitToGoogleSheets } from '../utils/analytics';
+import { track, trackMeta, submitToGoogleSheets } from '../utils/analytics';
 
 export interface Choice {
   textKey: string;
@@ -553,6 +553,7 @@ export const passages: Record<string, Passage> = {
         textKey: 'ready1.letsTry',
         action: (s) => {
           track('stage1_complete', { passage: 'ready1' });
+          trackMeta('Stage1Complete', { passage: 'ready1' });
           goto(s, 'factory');
         },
       },
