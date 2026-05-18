@@ -41,9 +41,17 @@ export function getOS(): string {
   return 'Unknown';
 }
 
+const COUNTRY_LOOKUP_MS = 3000;
+
 export async function getCountry(): Promise<string> {
   try {
-    const resp = await fetch('https://ipapi.co/json', { cache: 'no-store' });
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), COUNTRY_LOOKUP_MS);
+    const resp = await fetch('https://ipapi.co/json', {
+      cache: 'no-store',
+      signal: controller.signal,
+    });
+    clearTimeout(timeout);
     if (resp.ok) {
       const json = await resp.json();
       return json.country_name || 'Unknown';
@@ -53,6 +61,9 @@ export async function getCountry(): Promise<string> {
   }
   return 'Unknown';
 }
+
+const SHEETS_WEB_APP_URL = import.meta.env.VITE_SHEETS_WEB_APP_URL;
+const SHEETS_SECRET = import.meta.env.VITE_SHEETS_SECRET;
 
 interface SubmissionData {
   U: number;
@@ -110,17 +121,33 @@ export async function submitToGoogleSheets(data: SubmissionData): Promise<void> 
     data.art,
   ];
 
-  try {
-    const resp = await fetch(
-      'https://v1.nocodeapi.com/aishlykov/google_sheets/ohxHHAcDmgnAYEsY?tabId=Results',
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify([row]),
-      }
+  if (!SHEETS_WEB_APP_URL || !SHEETS_SECRET) {
+    console.warn(
+      'Sheets submission skipped: set VITE_SHEETS_WEB_APP_URL and VITE_SHEETS_SECRET (see scripts/google-sheets-webapp/SETUP.md)',
     );
+    return;
+  }
+
+  const url = `${SHEETS_WEB_APP_URL}?secret=${encodeURIComponent(SHEETS_SECRET)}`;
+
+  try {
+    const resp = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ rows: [row] }),
+    });
     const text = await resp.text();
-    console.log('Data sent:', text);
+    let result: { ok?: boolean; error?: string; appended?: number };
+    try {
+      result = JSON.parse(text) as { ok?: boolean; error?: string; appended?: number };
+    } catch {
+      result = { ok: false, error: text };
+    }
+    if (!resp.ok || !result.ok) {
+      console.error('Sheets submit failed:', resp.status, result);
+      return;
+    }
+    console.log('Data sent to Google Sheets:', result);
   } catch (e) {
     console.error('Error sending data:', e);
   }

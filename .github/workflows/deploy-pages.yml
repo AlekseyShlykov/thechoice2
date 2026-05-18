@@ -36,6 +36,8 @@ jobs:
         working-directory: game
         env:
           VITE_BASE_PATH: /
+          VITE_SHEETS_WEB_APP_URL: ${{ secrets.VITE_SHEETS_WEB_APP_URL }}
+          VITE_SHEETS_SECRET: ${{ secrets.VITE_SHEETS_SECRET }}
         run: npm run build
 
       - name: SPA fallback for GitHub Pages
