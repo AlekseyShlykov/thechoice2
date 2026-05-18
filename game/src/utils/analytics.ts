@@ -144,7 +144,7 @@ export async function submitToGoogleSheets(data: SubmissionData): Promise<void> 
       result = { ok: false, error: text };
     }
     if (!resp.ok || !result.ok) {
-      console.error('Sheets submit failed:', resp.status, result);
+      console.error('Sheets submit failed:', resp.status, result.error || result, text.slice(0, 200));
       return;
     }
     console.log('Data sent to Google Sheets:', result);
