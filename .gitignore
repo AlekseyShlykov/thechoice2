@@ -1,3 +1,9 @@
+# itch.io (npm run build:itch → game/../itch-build)
+/itch-build/
+itch-build/
+itch-build/**
+*.itch.zip
+
 # Keep only React app tracked in git.
 # Twine/original-version source files remain local-only.
 

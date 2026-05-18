@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { useGameStore } from '../store/gameStore';
+import { assetUrl } from '../utils/assetUrl';
 import './SoundButton.css';
 
 export default function SoundButton() {
@@ -9,7 +10,7 @@ export default function SoundButton() {
 
   useEffect(() => {
     if (!audioRef.current) {
-      audioRef.current = new Audio('assets/music.mp3');
+      audioRef.current = new Audio(assetUrl('assets/music.mp3'));
       audioRef.current.loop = true;
     }
   }, []);
@@ -28,7 +29,7 @@ export default function SoundButton() {
   return (
     <button className="sound-button" onClick={toggleSound} aria-label="Toggle sound">
       <img
-        src={soundOn ? 'assets/soundon.png' : 'assets/soundoff.png'}
+        src={assetUrl(soundOn ? 'assets/soundon.png' : 'assets/soundoff.png')}
         alt={soundOn ? 'Sound on' : 'Sound off'}
         width={32}
         height={22}

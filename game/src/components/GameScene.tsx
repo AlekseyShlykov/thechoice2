@@ -5,12 +5,15 @@ import { passages } from '../passages/registry';
 import { useTypewriter } from '../hooks/useTypewriter';
 import MoralGraph from './MoralGraph';
 import ShareResultButton from './ShareResultButton';
+import { assetUrl } from '../utils/assetUrl';
 import './GameScene.css';
+
+const IS_ITCH_BUILD = import.meta.env.VITE_ITCH === '1';
 
 const RESULT_PASSAGES = ['resultUL', 'resultUS', 'resultDL', 'resultDS'];
 const SUPPORTED_LANGS = ['en', 'ru', 'es', 'de', 'fr', 'ja', 'ko', 'zh-Hans', 'af'] as const;
 type SupportedLang = (typeof SUPPORTED_LANGS)[number];
-const BASE_SEGMENTS = import.meta.env.BASE_URL.split('/').filter(Boolean);
+const BASE_SEGMENTS = import.meta.env.BASE_URL.split('/').filter((seg) => seg && seg !== '.');
 const SEO_LANG_MAP: Record<SupportedLang, string> = {
   en: 'en',
   ru: 'ru',
@@ -82,11 +85,13 @@ export default function GameScene() {
       i18n.changeLanguage(lang);
     }
     document.documentElement.lang = SEO_LANG_MAP[lang];
-    const nextPath = withLangInPath(window.location.pathname, lang);
-    if (nextPath !== window.location.pathname) {
-      window.history.replaceState(window.history.state, '', `${nextPath}${window.location.search}${window.location.hash}`);
+    if (!IS_ITCH_BUILD) {
+      const nextPath = withLangInPath(window.location.pathname, lang);
+      if (nextPath !== window.location.pathname) {
+        window.history.replaceState(window.history.state, '', `${nextPath}${window.location.search}${window.location.hash}`);
+      }
+      ensureCanonical(nextPath);
     }
-    ensureCanonical(nextPath);
   }, [lang, i18n]);
 
   useEffect(() => {
@@ -158,7 +163,7 @@ export default function GameScene() {
 
         {passage.image && !isStartPage && (
           <img
-            src={passage.image}
+            src={assetUrl(passage.image)}
             alt=""
             className="scene-image"
             loading="eager"
