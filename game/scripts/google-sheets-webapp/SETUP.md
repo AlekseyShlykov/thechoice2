@@ -22,13 +22,13 @@
 4. **У кого есть доступ:** все (Anyone).
 5. Web App URL для этого проекта:
 
-`https://script.google.com/macros/s/AKfycbwOKuiBHTQYEVMhczfc2kiWptLoDmcmKfqD54dGLNZA0pQnFd3Q3_6mCHhrlknM3ilP/exec`
+`https://script.google.com/macros/s/AKfycbx5IV3qM1cKETzhIj88soSK0jly7tHXG3xMqVDTWY0jwlcxGYBdXesXRyFxelIW2BpX/exec`
 
 При изменении кода создавайте **новую версию** развертывания (или «Управление развертываниями» → редактировать → новая версия).
 
-**Проверка в браузере:** откройте [Web App URL](https://script.google.com/macros/s/AKfycbwOKuiBHTQYEVMhczfc2kiWptLoDmcmKfqD54dGLNZA0pQnFd3Q3_6mCHhrlknM3ilP/exec) — должен быть JSON с `"ok":true` (это `doGet`). Ошибка `Script function not found: doGet` значит, что в Apps Script ещё старая версия без `doGet` — обновите `Code.gs` и сделайте новое развертывание.
+**Проверка в браузере:** откройте [Web App URL](https://script.google.com/macros/s/AKfycbx5IV3qM1cKETzhIj88soSK0jly7tHXG3xMqVDTWY0jwlcxGYBdXesXRyFxelIW2BpX/exec) — должен быть JSON с `"ok":true` (это `doGet`). Ошибка `Script function not found: doGet` значит, что в Apps Script ещё старая версия без `doGet` — обновите `Code.gs` и сделайте новое развертывание.
 
-Игра отправляет данные **POST**-запросом (`doPost`), не через открытие ссылки в браузере.
+Игра отправляет данные **GET**-запросом (`?submit=1&secret=...&payload=...`), потому что POST к GAS в браузере часто ломается из‑за редиректа 302.
 
 ## 3. Переменные для игры
 
@@ -47,9 +47,9 @@
 ## 4. Проверка
 
 ```bash
-curl -X POST "https://script.google.com/macros/s/AKfycbwOKuiBHTQYEVMhczfc2kiWptLoDmcmKfqD54dGLNZA0pQnFd3Q3_6mCHhrlknM3ilP/exec?secret=ВАШ_СЕКРЕТ" \
-  -H "Content-Type: application/json" \
-  -d '{"rows":[["2026-01-01T00:00:00.000Z",1,2,3,4,"2en","Test","Desktop","macOS",0,1,0,1,0,1,0,1,0,1,0,1,1,2,3]]}'
+# payload = base64 of {"rows":[[...24 columns...]]}
+PAYLOAD=$(echo -n '{"rows":[["2026-01-01T00:00:00.000Z",1,2,3,4,"2en","Test","Desktop","macOS",0,1,0,1,0,1,0,1,0,1,0,1,1,2,3]]}' | base64)
+curl -sSL "https://script.google.com/macros/s/AKfycbx5IV3qM1cKETzhIj88soSK0jly7tHXG3xMqVDTWY0jwlcxGYBdXesXRyFxelIW2BpX/exec?submit=1&secret=ВАШ_СЕКРЕТ&payload=${PAYLOAD}"
 ```
 
 Ответ: `{"ok":true,"appended":1}` — строка появится на листе **Results**.
@@ -71,3 +71,5 @@ curl -X POST "https://script.google.com/macros/s/AKfycbwOKuiBHTQYEVMhczfc2kiWptL
    - `Sheets submit failed` → смотрите `error` в логе (unauthorized, sheet not found, …).
 
 4. **Секрет в проде** попадает в JS-бандл (это нормально для статического сайта, но строку лучше не светить). После починки можно сменить `SUBMIT_SECRET` в Apps Script + GitHub и сделать redeploy.
+
+5. **На thechoice.quest старый URL в бандле** — после смены Web App обновите GitHub secret `VITE_SHEETS_WEB_APP_URL` на новый `/exec` и **обязательно** пересоберите Pages (Run workflow). Иначе игра шлёт на мёртвый деплой.

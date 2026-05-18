@@ -128,14 +128,15 @@ export async function submitToGoogleSheets(data: SubmissionData): Promise<void> 
     return;
   }
 
-  const url = `${SHEETS_WEB_APP_URL}?secret=${encodeURIComponent(SHEETS_SECRET)}`;
+  // GAS Web App: POST often breaks on 302 redirect in browsers; GET + base64 payload is reliable.
+  const payload = btoa(JSON.stringify({ rows: [row] }));
+  const url =
+    `${SHEETS_WEB_APP_URL}?submit=1` +
+    `&secret=${encodeURIComponent(SHEETS_SECRET)}` +
+    `&payload=${encodeURIComponent(payload)}`;
 
   try {
-    const resp = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ rows: [row] }),
-    });
+    const resp = await fetch(url, { method: 'GET' });
     const text = await resp.text();
     let result: { ok?: boolean; error?: string; appended?: number };
     try {
